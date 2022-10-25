@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "cc9c936c42ff23eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab49260549762920",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a99ddca76acf231c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vite.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f7cc3d846813d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8f54b2305fb52be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8fff2abaeaec633",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c04a101e27f1a0b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "655db1c227089562",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8becc1770bbc8ceb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7a4e1483f206fc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72c4724d69cbb564",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "vite.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "025d9f67a4dca1ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "vite.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80da1b39e6f5b2f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2999209e12328de2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "vite.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a99ddca76acf231c",
+  "lastOpenFiles": [
+    "vite.pdf",
+    "vite.md"
+  ]
+}
