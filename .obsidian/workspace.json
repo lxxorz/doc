@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Markdown使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c89163a2ca7d18f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "vite.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,9 +152,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "a99ddca76acf231c",
+  "active": "c89163a2ca7d18f1",
   "lastOpenFiles": [
-    "vite.pdf",
-    "vite.md"
+    "Markdown使用.md",
+    "测试.md",
+    "vite.md",
+    "vite.pdf"
   ]
 }

@@ -64,4 +64,3 @@ app.listen(5173, () => {
 ### trouble shotting
 在浏览器网络当中，有vue文件，浏览器怎么识别vue文件呢？
 
-
