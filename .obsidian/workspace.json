@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95b6c2034a409416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化系列/rollup 插件机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b4bf125565f74d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化系列/rollup 插件机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b49f9c7ae5fc3b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化系列/rollup 从入门到入土.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite.md",
+                "file": "前端工程化系列/rollup 从入门到入土.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "vite.md",
+                "file": "前端工程化系列/rollup 从入门到入土.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vite.md"
+                "file": "前端工程化系列/rollup 从入门到入土.md"
               }
             }
           }
@@ -149,14 +185,14 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "c89163a2ca7d18f1",
+  "active": "1b49f9c7ae5fc3b7",
   "lastOpenFiles": [
+    "前端工程化系列/rollup 从入门到入土.md",
+    "前端工程化系列/rollup 插件机制.md",
     "Markdown使用.md",
-    "测试.md",
+    "前端工程化系列/构建工具历史.md",
     "vite.md",
+    "测试.md",
     "vite.pdf"
   ]
 }

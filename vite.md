@@ -3,9 +3,8 @@
 
 ### 什么是构建工具
 
-* 模块化支持，浏览器不支持裸模块导入 bare module import
-* 集成代码处理工具（babel, tsc...)
-* 对于使用不同的模块的依赖，需要统一转换成ESM，这个转换过程是
+长久依赖 Javascript 没有原生的模块，社区出现了各种模块标准(AMD, CommonJs, UMD, RequireJs)，众多开发者也只能依赖各种构建工具进行模块化开发
+
 
 ### 模块导入的实现
 ESM规范只支持以'/', './' 形式导入的module
@@ -61,6 +60,12 @@ app.listen(5173, () => {
 })
 ```
 
+
+### vite 如果支持css的模块化
+
+
 ### trouble shotting
 在浏览器网络当中，有vue文件，浏览器怎么识别vue文件呢？
 
+### vite 的限制
+* [ ] 仅支持可以使用ESM的现代浏览器，也可以通过[插件](https://github.com/vitejs/vite/tree/main/packages/plugin-legacy)兼容旧的浏览
