@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ab49260549762920",
+        "id": "c05e7fbc4fe866ea",
         "type": "tabs",
         "children": [
           {
-            "id": "a99ddca76acf231c",
+            "id": "ae7fbdf4f4ad9d21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化系列/rollup 插件机制.md",
+                "file": "前端工程化系列/构建工具历史.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化系列/rollup 插件机制.md",
+                "file": "前端工程化系列/构建工具历史.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化系列/rollup 插件机制.md",
+                "file": "前端工程化系列/构建工具历史.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化系列/rollup 插件机制.md"
+                "file": "前端工程化系列/构建工具历史.md"
               }
             }
           }
@@ -136,15 +136,15 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "a99ddca76acf231c",
+  "active": "ae7fbdf4f4ad9d21",
   "lastOpenFiles": [
-    "前端工程化系列/rollup 从入门到入土.md",
     "前端工程化系列/rollup 插件机制.md",
+    "前端工程化系列/rollup 从入门到入土.md",
     "前端工程化系列/构建工具历史.md",
+    "media/module.png",
+    "media/premium_photo-1666262371160-09cad10cf692.jpg",
     "Markdown使用.md",
+    "测试.md",
     "vite.md",
     "vite.pdf"
   ]

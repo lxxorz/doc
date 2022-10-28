@@ -54,3 +54,4 @@ module.exports = main$1;
 
 可以看到, rollup 只导入了version字段，其余没有用到的内容都被忽略了,这实际上就是**tree-shaking**
 
+### 针对构建产物的插件

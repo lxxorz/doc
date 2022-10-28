@@ -9,8 +9,7 @@
 
 
 ### 图片
-
-![](media/premium_photo-1666262371160-09cad10cf692.jpg)
+![[premium_photo-1666262371160-09cad10cf692.jpg|400]]
 
 ### 数学公式
 
