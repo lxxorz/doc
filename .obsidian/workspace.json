@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "e8648e542fe5d3ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e5eabc366e51c3bc",
             "type": "leaf",
             "state": {
@@ -53,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md",
+                "file": "前端工程化系列/rollup 插件机制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md",
+                "file": "前端工程化系列/rollup 插件机制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md"
+                "file": "前端工程化系列/rollup 插件机制.md"
               }
             }
           },
@@ -179,10 +166,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "e5eabc366e51c3bc",
+  "active": "a99ddca76acf231c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "版本控制工具/git/如何在使用git解决冲突.md",
+    "conflict-files-obsidian-git.md",
     "前端工程化系列/rollup 插件机制.md",
     "前端工程化系列/构建工具历史.md",
     "2022-10-29.md",
