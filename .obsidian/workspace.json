@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c05e7fbc4fe866ea",
+        "id": "ab49260549762920",
         "type": "tabs",
         "children": [
           {
-            "id": "ae7fbdf4f4ad9d21",
+            "id": "a99ddca76acf231c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化系列/构建工具历史.md",
+                "file": "版本控制工具/git/如何在使用git解决冲突.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化系列/构建工具历史.md",
+                "file": "版本控制工具/git/如何在使用git解决冲突.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化系列/构建工具历史.md",
+                "file": "版本控制工具/git/如何在使用git解决冲突.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化系列/构建工具历史.md"
+                "file": "版本控制工具/git/如何在使用git解决冲突.md"
               }
             }
           },
@@ -164,18 +164,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "ae7fbdf4f4ad9d21",
+  "active": "a99ddca76acf231c",
   "lastOpenFiles": [
     "前端工程化系列/rollup 插件机制.md",
-    "前端工程化系列/rollup 从入门到入土.md",
     "前端工程化系列/构建工具历史.md",
-    "media/module.png",
-    "media/premium_photo-1666262371160-09cad10cf692.jpg",
+    "版本控制工具/git/如何在使用git解决冲突.md",
+    "conflict-files-obsidian-git.md",
+    "2022-10-29.md",
+    "前端工程化系列/rollup 从入门到入土.md",
     "Markdown使用.md",
-    "测试.md",
     "vite.md",
     "vite.pdf"
   ]
