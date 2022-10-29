@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "abbdad437dac70ee",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
         ]
       }
@@ -128,22 +138,28 @@
                 "file": "前端工程化系列/rollup 插件机制.md"
               }
             }
+          },
+          {
+            "id": "27d8d37d315d8948",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
-  },
-  "ribbon": {
-    "mostRecentAction": ""
+    "width": 300
   },
   "active": "a99ddca76acf231c",
   "lastOpenFiles": [
-    "前端工程化系列/rollup 从入门到入土.md",
-    "前端工程化系列/rollup 插件机制.md",
     "前端工程化系列/构建工具历史.md",
+    "2022-10-29.md",
+    "前端工程化系列/rollup 插件机制.md",
+    "前端工程化系列/rollup 从入门到入土.md",
     "Markdown使用.md",
     "vite.md",
     "vite.pdf"
