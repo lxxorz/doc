@@ -86,3 +86,6 @@ pnpm add -D rollup
   }
 }
 ```
+
+### rollup 插件
+![[rollup 插件机制]]

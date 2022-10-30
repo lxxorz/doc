@@ -8,5 +8,6 @@
   },
   "promptDelete": false,
   "foldHeading": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
 }
