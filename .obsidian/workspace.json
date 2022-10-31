@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md",
+                "file": "前端工程化系列/rollup 插件机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d61fcca47fc0cc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端基础系列/网络/http 缓存.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md",
+                "file": "前端基础系列/网络/http 缓存.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md",
+                "file": "前端基础系列/网络/http 缓存.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "版本控制工具/git/如何在使用git解决冲突.md"
+                "file": "前端基础系列/网络/http 缓存.md"
               }
             }
           },
@@ -145,17 +158,17 @@
     "width": 331.5,
     "collapsed": true
   },
-  "active": "188471356bdd386e",
+  "active": "1d61fcca47fc0cc1",
   "lastOpenFiles": [
+    "前端工程化系列/rollup 插件机制.md",
+    "前端基础系列/网络/http 缓存.md",
+    "前端工程化系列/未命名.md",
     "前端工程化系列/rollup的文件名hash.md",
     "前端工程化系列/rollup 从入门到入土.md",
     "版本控制工具/git/如何在使用git解决冲突.md",
     "前端工程化系列/BFF(backend for frontend).md",
-    "前端工程化系列/rollup 插件机制.md",
     "rollup 从入门到入土.pdf",
     "rollup 插件机制.pdf",
-    "media/conflicts.png",
-    "conflict.png",
-    "Markdown使用.md"
+    "media/conflicts.png"
   ]
 }
