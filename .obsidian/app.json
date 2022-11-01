@@ -8,6 +8,9 @@
   },
   "promptDelete": false,
   "foldHeading": false,
-  "spellcheck": false,
-  "alwaysUpdateLinks": true
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }

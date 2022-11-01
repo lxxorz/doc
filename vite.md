@@ -1,9 +1,9 @@
 
-# vite 指南
+# Vite 指南
 
 ### 什么是构建工具
 
-长久依赖 Javascript 没有原生的模块，社区出现了各种模块标准(AMD, CommonJs, UMD, RequireJs)，众多开发者也只能依赖各种构建工具进行模块化开发
+长久依赖 Javascript 没有原生的模块，社区出现了各种模块标准 (AMD, CommonJs, UMD, RequireJs)，众多开发者也只能依赖各种构建工具进行模块化开发
 
 
 ### 模块导入的实现
