@@ -1,23 +1,29 @@
-Vite 的重新加载
-> Vite 同时利用 HTTP 头来加速整个页面的重新加载（再次让浏览器为我们做更多事情）：源码模块的请求会根据 `304 Not Modified` 进行协商缓存，而依赖模块请求则会通过 `Cache-Control: max-age=31536000,immutable` 进行强缓存，因此一旦被缓存它们将不需要再次请求。
+### Http 的缓存是个啥
+众所周知，走 50 米和走 100 米所花费的时间不一样，同理我们从源服务器取数据和我们从本地取数据所花费的时间也不一样。http 的缓存就是一个将响应存储在离我们更近的地方以方便在接下来的请求当中，快速的获取数据的机制。
+
+这里所谓的近的地方，一般来说是指浏览器或者代理、反向代理、CDN 等。相对于源服务器，我们从这些的地方获取数据的成本要小得多。
+
+在术语中称浏览器为私有缓存，而代理、反向代理、CDN 这种为共享缓存（[其实对于共享缓存和私有缓存也没有一个非常精确的定义](https://www.rfc-editor.org/rfc/rfc2616#page-96)
 
 
-1. 私有缓存，绑定到特定客户端不和其他客户端共享
-2. 共享缓存，共享缓存位于客户端和服务器之间进一步分为代理缓存和托管缓存
 ```mermaid
 graph BT
 	z[私有缓存] ==> cache[缓存]
-	a[代理缓存] ==> b[共享缓存] ==> cache
-	c[托管缓存] ==> b[共享缓存]
+	b[共享缓存] ==> cache
 ```
 
 ![[http-cache.png]]
+这张图表明缓存可能的位置
 
+通过设置 `Cache-Control` 字段，就能控制缓存是私有还是共享
+`Cache-Control: private` 设置为私有缓存
+`Cache-Control: public` 设置为共享缓存
 
 ### 缓存方式
 
+
 #### 基于 max-age 的缓存
-响应的状态分为两种, 未过时和过时客户端会根据响应头中的 cache-control 当中的 max-age 进行缓存，超过了 max-age 指定的时间会将响应的状态设置为过时的
+通过设置 `Cache-Control: max-age=N` ，表示响应在 N 秒之内可以被存储，响应的状态分为两种, 未过时和过时客户端会根据响应头中的 cache-control 当中的 max-age 进行缓存，超过了 max-age 指定的时间会将响应的状态设置为过时的
 ```http
 HTTP/1.1 200 OK
 Content-Length: 409259
@@ -39,6 +45,10 @@ Date: Tue, 22 Feb 2022 22:22:22 GMT
 Last-Modified: Tue, 22 Feb 2021 22:22:22 GMT
 ```
 根据 Date 和 Last-Modified 可以看出该响应已经一年没有修改，可以猜想在今后的一段时间，也不会更改此响应。这个“今后的一段时间”到底多长，取决于实现，http 的规范建议存储至少 10% 的时间
+
+#### 基于 Expires
+过时的旧玩意儿
+
 
 ### 缓存验证
 在响应过时之后，不会马上把响应内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重新之前的响应
@@ -102,14 +112,14 @@ flowchart LR
 	linkStyle 2 stroke:red,stroke-width:4px,color:red;
 	
 ```
-总而言之，因为多节点很难保证计算出来的文件 Etag 一致, 因为多个节点难以保证文件的同步更新时间，所以此时使用 Etag 不太明智
+总而言之，因为多个节点难以保证文件的更新时间一致，所以此时使用 Etag 不太明智
 
 
 #### 扩展
 Etag 的格式有两种
 强验证，形如 `Etag: "dfasdfasdfasdfsadf"
 	保证客户端的缓存的文件和服务器上的文件逐字节相同
-弱验证, 形如 `Etag: "\Wfasdfasdf"
+弱验证, 形如 `Etag: "W/fasdfasdf"
 	保证客户端缓存的文字语义上和服务器上的文件相同
 
 ### 奇怪的现象
@@ -126,3 +136,21 @@ ETag: "216cd7b-5ec0fb74c9898"
 ![[etag-1.png]]
 * 第二次请求（已缓存）
 ![[etag-2.png]]
+### cache-control 指令
+| request        | response     |
+| -------------- | ------------ |
+| max-age        | max-age      |
+| max-stale      | --           |
+| min-fresh      | --           |
+| -              | s-maxage     |
+| no-cache       | no-cache     |
+| no-store       | no-store     |
+| no-transform   | no-transform |
+| only-if-cached | -            |
+
+
+
+
+参考
+- [RFC 9111 - HTTP Caching (httpwg.org)](https://httpwg.org/specs/rfc9111.html#field.cache-control)
+- [RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1 (rfc-editor.org)](https://www.rfc-editor.org/rfc/rfc2616#page-96)
