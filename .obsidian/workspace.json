@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b75a7101fe5a7bba",
+        "id": "cb7479e0369a671d",
         "type": "tabs",
         "children": [
           {
-            "id": "0fa7872d442e4df3",
+            "id": "891e44e4c425a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -144,17 +144,17 @@
     "direction": "horizontal",
     "width": 331.5
   },
-  "active": "27d8d37d315d8948",
+  "active": "891e44e4c425a4b5",
   "lastOpenFiles": [
+    "前端基础系列/网络/http 缓存.md",
+    "http 缓存.pdf",
+    "etag-1.png",
     "media/etag-2.png",
     "media/premium_photo-1666262371160-09cad10cf692.jpg",
-    "前端基础系列/网络/http 缓存.md",
     "Pasted image 20221101172702.png",
     "Pasted image 20221101172705.png",
     "Pasted image 20221101173024.png",
     "Pasted image 20221101173026.png",
-    "前端基础系列/优化/优化思路.md",
-    "media/conflicts.png",
-    "media/http-cache.png"
+    "前端基础系列/优化/优化思路.md"
   ]
 }

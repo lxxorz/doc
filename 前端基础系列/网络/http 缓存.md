@@ -44,6 +44,7 @@ Last-Modified: Tue, 22 Feb 2021 22:22:22 GMT
 在响应过时之后，不会马上把响应内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重新之前的响应
 http 通过两组 header 进行缓存验证
 * 通过 If-Not-Modified
+这
 请求头
 ```http
 
@@ -83,7 +84,7 @@ function stattag (stat) {
   return '"' + size + '-' + mtime + '"'
 }
 ```
-Etag 存在的问题是对于多个节点的情况下
+Etag 存在的问题是对于多个节点的情况下, 缓存会失效
 ```mermaid
 flowchart LR
 	client --->|abcd| lb[load banlancing]
@@ -101,6 +102,16 @@ flowchart LR
 	linkStyle 2 stroke:red,stroke-width:4px,color:red;
 	
 ```
+总而言之，因为多节点很难保证计算出来的文件 Etag 一致, 因为多个节点难以保证文件的同步更新时间，所以此时使用 Etag 不太明智
+
+
+#### 扩展
+Etag 的格式有两种
+强验证，形如 `Etag: "dfasdfasdfasdfsadf"
+	保证客户端的缓存的文件和服务器上的文件逐字节相同
+弱验证, 形如 `Etag: "\Wfasdfasdf"
+	保证客户端缓存的文字语义上和服务器上的文件相同
+
 ### 奇怪的现象
 使用 curl 请求已缓存的资源显示 304 Not Modified
 ```sh
