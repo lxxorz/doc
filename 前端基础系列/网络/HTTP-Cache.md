@@ -1,7 +1,9 @@
 ### Http 的缓存是个啥
-众所周知，走 50 米和走 100 米所花费的时间不一样，同理我们从源服务器取数据和我们从本地取数据所花费的时间也不一样。http 的缓存就是一个将响应存储在离我们更近的地方以方便在接下来的请求当中，快速的获取数据的机制。
+众所周知，走 50 米和走 100 米所花费的时间不一样，同理我们从源服务器获取取数据和我们从本地取数据所花费的时间也不一样。http 的缓存就是一个将响应存储在离我们更近的地方以方便在接下来的请求当中，快速获取数据的机制。
 
 这里所谓的近的地方，一般来说是指浏览器或者代理、反向代理、CDN 等。相对于源服务器，我们从这些的地方获取数据的成本要小得多。
+
+对于 http 来说缓存是一个可选的功能，但是对于大部分情况使用缓存都能获得明显的收益
 
 在术语中称浏览器为私有缓存，而代理、反向代理、CDN 这种为共享缓存（[其实对于共享缓存和私有缓存也没有一个非常精确的定义](https://www.rfc-editor.org/rfc/rfc2616#page-96)
 
@@ -20,10 +22,8 @@ graph BT
 `Cache-Control: public` 设置为共享缓存
 
 ### 缓存方式
-
-
 #### 基于 max-age 的缓存
-通过设置 `Cache-Control: max-age=N` ，表示响应在 N 秒之内可以被存储，响应的状态分为两种, 未过时和过时客户端会根据响应头中的 cache-control 当中的 max-age 进行缓存，超过了 max-age 指定的时间会将响应的状态设置为过时的
+基于 max-age 的缓存俗称强缓存，通过设置 `Cache-Control: max-age=N` ，表示响应在 N 秒之内可以被存储重用，响应的状态分为两种, 未过时 (fresh) 和过时 (stale)，超过了 max-age 指定的时间会将响应的状态设置为过时的, 需要注意的是这个 max-age 的开始时间不是客户端收到响应的时间，而是服务端生成响应的时间
 ```http
 HTTP/1.1 200 OK
 Content-Length: 409259
@@ -51,15 +51,9 @@ Last-Modified: Tue, 22 Feb 2021 22:22:22 GMT
 
 
 ### 缓存验证
-在响应过时之后，不会马上把响应内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重新之前的响应
+在响应过时之后，不会马上把响应内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重用之前的缓存
 http 通过两组 header 进行缓存验证
-* 通过 If-Not-Modified
-这
-请求头
-```http
-
-```
-响应头
+* Last-Modified/If-Not-Modified
 ```http
 HTTP/1.1 200 OK
 Content-Type: text/html
@@ -68,7 +62,11 @@ Date: Tue, 22 Feb 2022 22:22:22 GMT
 Last-Modified: Tue, 22 Feb 2022 22:00:00 GMT
 Cache-Control: max-age=3600
 ```
-* 通过 Etag/If-None-Match
+Last-Modified 代表文件上次被修改的时间
+
+响应头中包含 Last-Modified 告知文件被修改的时间，然后再次发起请求时，在请求头中携带'If-Modified-Match'给服务器，服务器通过对比两个时间，来决定是否返回完整的响应
+
+* Etag/If-None-Match
 Etag 是一个资源标识符，由服务器任意生成（基于自定义的算法）
 ```mermaid
 sequenceDiagram
@@ -79,7 +77,7 @@ sequenceDiagram
 ```
 首先服务器在给首次请求中给客户端响应头里面会有 Etag 这个 header，这里的 Etag 内容是"abcd", 实际上一般是一个很长的哈希字符串，然后客户端再次请求的时候会自动带上 If-None-Match 请求头，If-None-Match 的内容就是 Etag 的内容，服务器通过比对当前请求内容的 Etag 和从请求头中的拿到的 If-None-Match，决定返回"304 Not Modifiled"或者是一个完整的新的响应
 
-在一些服务器的 Etag 算法实现上，都是通过文件的修改时间和文件大小来生成 Etag，比如 [koa-etag](https://github.com/jshttp/etag) 的实现里面
+通用的服务器的 Etag 算法实现上，都是通过文件的修改时间和文件大小来生成 Etag，比如 [koa-etag](https://github.com/jshttp/etag) 的实现里面
 ```js
 /**
  * Generate a tag for a stat.
@@ -96,27 +94,33 @@ function stattag (stat) {
 ```
 Etag 存在的问题是对于多个节点的情况下, 缓存会失效
 ```mermaid
-flowchart LR
-	client --->|abcd| lb[load banlancing]
+flowchart TB
+	client --->|If-None-Match:abcd| lb[load banlancing]
 	lb -->|If-None-Match:abcd| server1 
 	lb --> server2
 	lb --> s3[...]
 ```
 如果此时负载均衡请求的节点将请求转发给 server2 ，将会认为是一个新的请求，因为 If-None-Match 和 server2 计算的 Etag 不一致
 ```mermaid
-flowchart LR
-	client --->|abcd| lb[load banlancing]
+flowchart TB
+	client --->|If-None-Match:abcd| lb[load banlancing]
 	lb --> server1 
 	lb -->|If-None-Match:abcd| server2
 	lb --> s3[...]
 	linkStyle 2 stroke:red,stroke-width:4px,color:red;
 	
 ```
-总而言之，因为多个节点难以保证文件的更新时间一致，所以此时使用 Etag 不太明智
+总而言之，因为多个节点难以保证文件的更新时间一致，所以多个节点的情况下使用 Etag 不太明智
 
+
+#### 如何禁止使用缓存
+- no-store
+- no-cache
+no-store 很好理解，彻底的不存储、不重用缓存！no-cache 则代表必须经过服务器的验证才能重用缓存，这也意味着必须重新发起一次请求才行，如果验证成功则返回 '304 not modified' 然后用本地缓存拼接成一个响应，如果验证失败，返回一个新的完整的响应
+
+另外有一个 must-validate 指令，它告诉客户端如果缓存过期了，必须重新验证，
 
 #### 扩展
-Etag 的格式有两种
 强验证，形如 `Etag: "dfasdfasdfasdfsadf"
 	保证客户端的缓存的文件和服务器上的文件逐字节相同
 弱验证, 形如 `Etag: "W/fasdfasdf"
@@ -136,21 +140,15 @@ ETag: "216cd7b-5ec0fb74c9898"
 ![[etag-1.png]]
 * 第二次请求（已缓存）
 ![[etag-2.png]]
-### cache-control 指令
-| request        | response     |
-| -------------- | ------------ |
-| max-age        | max-age      |
-| max-stale      | --           |
-| min-fresh      | --           |
-| -              | s-maxage     |
-| no-cache       | no-cache     |
-| no-store       | no-store     |
-| no-transform   | no-transform |
-| only-if-cached | -            |
 
-
+#### 实践
+利用缓存，我们可以节省网络带宽和提快响应的速度，包括 vite 一些的工具都利用了缓存来提高页面的加载的速度。通常都不会缓存入口文件，因为需要更新我们的网站。
 
 
 参考
 - [RFC 9111 - HTTP Caching (httpwg.org)](https://httpwg.org/specs/rfc9111.html#field.cache-control)
 - [RFC 2616: Hypertext Transfer Protocol -- HTTP/1.1 (rfc-editor.org)](https://www.rfc-editor.org/rfc/rfc2616#page-96)
+- [Cache-Control在请求头和响应头里的区别 - 掘金 (juejin.cn)](https://juejin.cn/post/6960988505816186894)
+- [HTTP 资源与规范 - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Resources_and_specifications)
+- [Cache-Control - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) 
+- [为什么选 Vite | Vite 官方中文文档 (vitejs.dev)](https://cn.vitejs.dev/guide/why.html#the-problems)
