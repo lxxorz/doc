@@ -3,7 +3,7 @@
 
 这里所谓的近的地方，一般来说是指浏览器或者代理、反向代理、CDN 等。相对于源服务器，我们从这些的地方获取数据的成本要小得多。
 
-对于 http 来说缓存是一个可选的功能，但是对于大部分情况使用缓存都能获得明显的收益
+对于 http 来说缓存是一个可选的功能，但是对于大部分情况使用缓存都能获得明显的收益 (节省带宽和提高响应速度)
 
 在术语中称浏览器为私有缓存，而代理、反向代理、CDN 这种为共享缓存（[其实对于共享缓存和私有缓存也没有一个非常精确的定义](https://www.rfc-editor.org/rfc/rfc2616#page-96)
 
@@ -13,7 +13,7 @@ graph BT
 	z[私有缓存] ==> cache[缓存]
 	b[共享缓存] ==> cache
 ```
-
+缓存位置如下图所示
 ![[http-cache.png]]
 这张图表明缓存可能的位置
 
@@ -23,7 +23,7 @@ graph BT
 
 ### 缓存方式
 #### 基于 max-age 的缓存
-基于 max-age 的缓存俗称强缓存，通过设置 `Cache-Control: max-age=N` ，表示响应在 N 秒之内可以被存储重用，响应的状态分为两种, 未过时 (fresh) 和过时 (stale)，超过了 max-age 指定的时间会将响应的状态设置为过时的, 需要注意的是这个 max-age 的开始时间不是客户端收到响应的时间，而是服务端生成响应的时间
+基于 max-age 的缓存俗称强缓存，通过设置 `Cache-Control: max-age=N` ，在 N 秒之内可以使用缓存，缓存的状态分为两种, 新鲜 (fresh) 和过时 (stale)，超过了 max-age 指定的时间会将缓存的状态设置为过时的, 需要注意的是这个 max-age 的开始时间不是客户端收到响应的时间，而是服务端生成响应的时间
 ```http
 HTTP/1.1 200 OK
 Content-Length: 409259
@@ -44,15 +44,23 @@ Content-Length: 1024
 Date: Tue, 22 Feb 2022 22:22:22 GMT
 Last-Modified: Tue, 22 Feb 2021 22:22:22 GMT
 ```
-根据 Date 和 Last-Modified 可以看出该响应已经一年没有修改，可以猜想在今后的一段时间，也不会更改此响应。这个“今后的一段时间”到底多长，取决于实现，http 的规范建议存储至少 10% 的时间
+根据 Date 和 Last-Modified 可以看出该响应已经一年没有修改，可以猜想在今后的一段时间，也不会更改此响应。这个“今后的一段时间”到底多长，取决于实现，http 的规范建议存储至少 10% 的时间，可以通过设置 no-cache 或者 no-store 来禁止这种缓存
 
 #### 基于 Expires
 过时的旧玩意儿
 
-
 ### 缓存验证
-在响应过时之后，不会马上把响应内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重用之前的缓存
-http 通过两组 header 进行缓存验证
+在缓存过时之后，不会马上把缓存内容丢弃，通过重新发起请求，如果重新发起的请求通过了源服务器的验证，那么可以重用之前的缓存。缓存验证的出现源于我们这样的两个要求
+- 保证我们网站的内容是最新的
+- 保证最大化利用缓存
+
+如果直接在缓存过时之后，文件根本就没有做任何的修改，重新发送一次完整的响应，显然是没有必要的，要保证在**资源未更改**的情况下，能够重新使用缓存，
+```mermaid
+flowchart LR
+	client -->|未命中| cache ==> |重新验证| server
+	server ==>|验证结果| client
+```
+验证结果如果状态码是 304 那么代码资源未更改，否则当作一次全新的请求,有两组 header 字段来验证资源是否修改，
 * Last-Modified/If-Not-Modified
 ```http
 HTTP/1.1 200 OK
@@ -62,18 +70,17 @@ Date: Tue, 22 Feb 2022 22:22:22 GMT
 Last-Modified: Tue, 22 Feb 2022 22:00:00 GMT
 Cache-Control: max-age=3600
 ```
-Last-Modified 代表文件上次被修改的时间
-
 响应头中包含 Last-Modified 告知文件被修改的时间，然后再次发起请求时，在请求头中携带'If-Modified-Match'给服务器，服务器通过对比两个时间，来决定是否返回完整的响应
 
 * Etag/If-None-Match
-Etag 是一个资源标识符，由服务器任意生成（基于自定义的算法）
+Etag 是一个资源标识符，是由服务器生成的字符串，它可以代表服务器上的某个资源
 ```mermaid
 sequenceDiagram
 	actor 客户端
 	actor 服务器
-	服务器->>客户端: Etag "abcd"
-	客户端->>服务器: If-None-Match: "abcd"
+	服务器->>客户端: RESPONSE-"abcd"
+	客户端->>服务器: REQUEST-"abcd"
+	服务器->>客户端: "验证通过可以重用本地资源"
 ```
 首先服务器在给首次请求中给客户端响应头里面会有 Etag 这个 header，这里的 Etag 内容是"abcd", 实际上一般是一个很长的哈希字符串，然后客户端再次请求的时候会自动带上 If-None-Match 请求头，If-None-Match 的内容就是 Etag 的内容，服务器通过比对当前请求内容的 Etag 和从请求头中的拿到的 If-None-Match，决定返回"304 Not Modifiled"或者是一个完整的新的响应
 
@@ -92,7 +99,7 @@ function stattag (stat) {
   return '"' + size + '-' + mtime + '"'
 }
 ```
-Etag 存在的问题是对于多个节点的情况下, 缓存会失效
+Etag 存在的问题是对于多个节点的情况下, 缓存可能会失效
 ```mermaid
 flowchart TB
 	client --->|If-None-Match:abcd| lb[load banlancing]
@@ -110,10 +117,11 @@ flowchart TB
 	linkStyle 2 stroke:red,stroke-width:4px,color:red;
 	
 ```
-总而言之，因为多个节点难以保证文件的更新时间一致，所以多个节点的情况下使用 Etag 不太明智
+总而言之，多节点的集群，如果需要使用 ETag，那么需要保证资源的一致性，让每个服务器计算出来的 ETag 是相同的
 
 
 #### 如何禁止使用缓存
+出于安全、隐私或者其他需求，某些场景下需要禁用缓存
 - no-store
 - no-cache
 no-store 很好理解，彻底的不存储、不重用缓存！no-cache 则代表必须经过服务器的验证才能重用缓存，这也意味着必须重新发起一次请求才行，如果验证成功则返回 '304 not modified' 然后用本地缓存拼接成一个响应，如果验证失败，返回一个新的完整的响应
@@ -126,23 +134,9 @@ no-store 很好理解，彻底的不存储、不重用缓存！no-cache 则代�
 弱验证, 形如 `Etag: "W/fasdfasdf"
 	保证客户端缓存的文字语义上和服务器上的文件相同
 
-### 奇怪的现象
-使用 curl 请求已缓存的资源显示 304 Not Modified
-```sh
-curl http://192.168.13.76/EHCommon/resources/map/Scene_1/Building_1/Floor_2d_1_1666927127.json --header 'If-None-Match: "216cd7b-5ec0fb74c9898"' -I
-HTTP/1.1 304 Not Modified
-Date: Tue, 01 Nov 2022 09:25:59 GMT
-Server: Apache
-ETag: "216cd7b-5ec0fb74c9898"
-```
-但是实际在浏览器中根本就没有带 `If-None-Match` 这个header，响应的状态码一直是 200 Ok
-* 第一次请求
-![[etag-1.png]]
-* 第二次请求（已缓存）
-![[etag-2.png]]
-
 #### 实践
-利用缓存，我们可以节省网络带宽和提快响应的速度，包括 vite 一些的工具都利用了缓存来提高页面的加载的速度。通常都不会缓存入口文件，因为需要更新我们的网站。
+利用缓存，我们可以节省网络带宽和提快响应的速度，包括 vite 一些的工具都利用了缓存来提高页面的加载的速度。
+通常都不会缓存入口文件，因为需要更新我们的网站。
 
 
 参考

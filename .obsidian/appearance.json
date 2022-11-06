@@ -1,6 +1,10 @@
 {
   "accentColor": "",
   "cssTheme": "Obsidian Nord",
-  "baseFontSize": 16,
-  "interfaceFontFamily": "JetBrains Mono NL"
+  "baseFontSize": 21,
+  "interfaceFontFamily": "JetBrains Mono NL",
+  "theme": "moonstone",
+  "translucency": false,
+  "nativeMenus": false,
+  "showViewHeader": false
 }
