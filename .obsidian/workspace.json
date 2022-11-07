@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端基础系列/网络/HTTP-Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端基础系列/网络/HTTP-Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端基础系列/网络/HTTP-Cache.md"
+              }
             }
           },
           {
@@ -140,10 +144,10 @@
     "direction": "horizontal",
     "width": 331.5
   },
-  "active": "d8fff2abaeaec633",
+  "active": "891e44e4c425a4b5",
   "lastOpenFiles": [
-    "未命名.md",
     "[RFC.md",
+    "未命名.md",
     "前端工程化系列/用npm构建一个简单的命令行工具.md",
     "前端工程化系列/BFF(backend for frontend).md",
     "前端基础系列/网络/HTTP-Cache.md",
