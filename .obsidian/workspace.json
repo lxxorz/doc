@@ -8,18 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "891e44e4c425a4b5",
+            "id": "db112d937f87c2b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/Stream.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/Stream.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/Stream.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md"
+                "file": "前端基础系列/Stream.md"
               }
             }
           },
@@ -137,24 +138,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
-  "active": "891e44e4c425a4b5",
+  "active": "db112d937f87c2b1",
   "lastOpenFiles": [
+    "前端基础系列/Stream.md",
+    "etag-1.png",
+    "Markdown使用.md",
+    "前端基础系列/网络/http-status-code.md",
+    "前端基础系列/网络/HTTP-Cache.md",
     "[RFC.md",
     "未命名.md",
     "前端工程化系列/用npm构建一个简单的命令行工具.md",
     "前端工程化系列/BFF(backend for frontend).md",
-    "前端基础系列/网络/HTTP-Cache.md",
-    "前端基础系列/网络/http 缓存.md",
-    "http 缓存.pdf",
-    "etag-1.png",
-    "media/etag-2.png",
-    "media/premium_photo-1666262371160-09cad10cf692.jpg"
+    "前端基础系列/网络/http 缓存.md"
   ]
 }
