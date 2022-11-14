@@ -4,19 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "cb7479e0369a671d",
+        "id": "e8138f528bda75d0",
         "type": "tabs",
         "children": [
           {
-            "id": "4846c8986a5ea0a5",
+            "id": "79826fab942c7905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化系列/前端基础系列/网络/Network Model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e29469283567d6ed",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "a60d271b7f7313f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/English/英语学习方法论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "213840356bbe6cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/English/英语学习方法论.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9733098ab5b6299b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/English/英语听力资源.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "stacked": true
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -82,6 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Language/English/英语听力资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Language/English/英语听力资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +169,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Language/English/英语听力资源.md"
+              }
             }
           },
           {
@@ -130,24 +182,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
-  "active": "d8fff2abaeaec633",
+  "active": "9733098ab5b6299b",
   "lastOpenFiles": [
-    "前端基础系列/Stream.md",
-    "etag-1.png",
-    "Markdown使用.md",
-    "前端基础系列/网络/http-status-code.md",
-    "前端基础系列/网络/HTTP-Cache.md",
-    "[RFC.md",
-    "邮件.md",
-    "前端工程化系列/用npm构建一个简单的命令行工具.md",
-    "前端工程化系列/BFF(backend for frontend).md",
-    "前端基础系列/网络/http 缓存.md"
+    "Language/English/英语学习方法论.md",
+    "Language/English/英语基础课程.md",
+    "前端工程化系列/前端基础系列/网络/Network Model.md",
+    "Language/English/简单从句.md",
+    "前端工程化系列/前端基础系列/网络/http-status-code.md",
+    "前端工程化系列/前端基础系列/网络/HTTP-Cache.md",
+    "前端工程化系列/前端基础系列/网络/从浏览器发起的http请求说起.md",
+    "测试.md",
+    "media/Markdown使用.md",
+    "media/etag-1.png"
   ]
 }
