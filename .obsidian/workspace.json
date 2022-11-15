@@ -4,67 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e8138f528bda75d0",
+        "id": "cb7479e0369a671d",
         "type": "tabs",
         "children": [
           {
-            "id": "79826fab942c7905",
+            "id": "e68b1572a8f3560d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化系列/前端基础系列/网络/Network Model.md",
+                "file": "Language/English/语法/名词.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e29469283567d6ed",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a60d271b7f7313f1",
+            "id": "3c7822835f4bdd6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/English/英语学习方法论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "213840356bbe6cc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/English/英语学习方法论.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9733098ab5b6299b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/English/英语听力资源.md",
+                "file": "Language/English/语法/动词.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -130,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/English/英语听力资源.md",
+                "file": "Language/English/语法/名词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/English/英语听力资源.md",
+                "file": "Language/English/语法/名词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/English/英语听力资源.md"
+                "file": "Language/English/语法/名词.md"
               }
             }
           },
@@ -182,24 +150,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 331.5,
+    "collapsed": true
   },
-  "active": "9733098ab5b6299b",
+  "active": "e68b1572a8f3560d",
   "lastOpenFiles": [
-    "Language/English/英语学习方法论.md",
+    "Language/English/语法/动词.md",
+    "Language/English/语法/名词.md",
+    "关于RFC的注意事项.md",
     "Language/English/英语基础课程.md",
-    "前端工程化系列/前端基础系列/网络/Network Model.md",
-    "Language/English/简单从句.md",
-    "前端工程化系列/前端基础系列/网络/http-status-code.md",
-    "前端工程化系列/前端基础系列/网络/HTTP-Cache.md",
-    "前端工程化系列/前端基础系列/网络/从浏览器发起的http请求说起.md",
-    "测试.md",
-    "media/Markdown使用.md",
-    "media/etag-1.png"
+    "Language/English/英语听力资源.md",
+    "Language/English/英语学习方法论.md",
+    "前端工程化系列/rollup的文件名hash.md",
+    "前端工程化系列/rollup 从入门到入土.md",
+    "前端工程化系列/rollup 插件机制.md",
+    "邮件.md"
   ]
 }
