@@ -60,7 +60,7 @@ module.exports = main$1;
 pnpm add rollup-plugin-terser
 ```
 然后编辑 rollup 配置文件, 增加一个最小化的打包构建
-这里使用**iife**格式构建代码，这种格式的代码可以被浏览器用 script 标签引入，因为我们代码当中有一个导出，这个导出以全局变量的形式供其他代码使用，这里的**name**就是这个全局变量的名字
+这里使用 **IIFE** 格式构建代码，这种格式的代码可以被浏览器用 script 标签引入，因为我们代码当中有一个导出，这个导出以全局变量的形式供其他代码使用，这里的**name**就是这个全局变量的名字
 ```js
 import {terser} from "rollup-plugin-terser"
 export default {
