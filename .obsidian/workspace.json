@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/网络/http-compression.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/网络/http-compression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "前端基础系列/网络/http-compression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md"
+                "file": "前端基础系列/网络/http-compression.md"
               }
             }
           },
@@ -147,8 +147,8 @@
   },
   "active": "f925f5af8a9770ca",
   "lastOpenFiles": [
-    "前端基础系列/网络/从浏览器发起的http请求说起.md",
     "前端基础系列/网络/HTTP-Cache.md",
+    "前端基础系列/网络/从浏览器发起的http请求说起.md",
     "前端基础系列/网络/http-status-code.md",
     "前端基础系列/网络/http-compression.md",
     "前端基础系列/优化/optimize.md",
