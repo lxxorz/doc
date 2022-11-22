@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "20b70fb6f11ba216",
+        "id": "9da1aa1363e0efb6",
         "type": "tabs",
         "children": [
           {
-            "id": "f925f5af8a9770ca",
+            "id": "343fae69cff201e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/网络/http-compression.md",
+                "file": "前端基础系列/网络/HTTP-Compression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed16eecd06e07fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端基础系列/数学/熵.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/网络/http-compression.md",
+                "file": "前端基础系列/数学/熵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/网络/http-compression.md",
+                "file": "前端基础系列/数学/熵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/网络/http-compression.md"
+                "file": "前端基础系列/数学/熵.md"
               }
             }
           },
@@ -139,23 +151,24 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 329.5,
+    "collapsed": true
   },
-  "active": "f925f5af8a9770ca",
+  "active": "ed16eecd06e07fcf",
   "lastOpenFiles": [
-    "前端基础系列/网络/HTTP-Cache.md",
-    "前端基础系列/网络/从浏览器发起的http请求说起.md",
-    "前端基础系列/网络/http-status-code.md",
-    "前端基础系列/网络/http-compression.md",
-    "前端基础系列/优化/optimize.md",
-    "optimize-resource-size.png",
-    "Pasted image 20221118170742.png",
-    "optimize-resource-size.png",
-    "optimize-cache.png",
-    "media/optimize-no-cache.png"
+    "前端基础系列/未命名.md",
+    "前端基础系列/网络/HTTP-Compression.md",
+    "工具/如何阅读论文.md",
+    "http-compression-lz77.png",
+    "meme-gzip.png",
+    "http-compression-gzip-header.png",
+    "HTTP-Compression-GZIP.pdf",
+    "前端基础系列/LINUX 常用命令 cheet-sheet.md",
+    "Pasted image 20221120172706.png.md",
+    "Language/English/英语学习方法论.md"
   ]
 }
