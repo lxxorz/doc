@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b67aadd0cae7d59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/数学/熵.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/数学/熵.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/数学/熵.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -158,8 +170,10 @@
     "width": 329.5,
     "collapsed": true
   },
-  "active": "ed16eecd06e07fcf",
+  "active": "8b67aadd0cae7d59",
   "lastOpenFiles": [
+    "前端基础系列/数学/熵.md",
+    "conflict-files-obsidian-git.md",
     "前端基础系列/未命名.md",
     "前端基础系列/网络/HTTP-Compression.md",
     "工具/如何阅读论文.md",
@@ -167,8 +181,6 @@
     "meme-gzip.png",
     "http-compression-gzip-header.png",
     "HTTP-Compression-GZIP.pdf",
-    "前端基础系列/LINUX 常用命令 cheet-sheet.md",
-    "Pasted image 20221120172706.png.md",
-    "Language/English/英语学习方法论.md"
+    "前端基础系列/LINUX 常用命令 cheet-sheet.md"
   ]
 }
