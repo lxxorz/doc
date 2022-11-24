@@ -13,9 +13,28 @@ function doSomething(){
 	a = true;
 }
 ```
+也许能做到根据函数调用来检查变量是否被重新赋值，但是目前 TS 实现起来比较困难，
+所以目前针对函数调用，有两种可行的策略
+- 乐观策略
+乐观策略认为函数永远不会修改外部的变量，因此以下代码就会报错
+```
+let a = false;
+doSomething();
 
+if(a === true){
+	//error
+}
+```
 
+- 悲观策略
+悲观策略认为，所有函数调用都存在将可达的变量修改的可能性。所以会将所有类型收缩的变量的类型重置
+```ts
+let a = "hello world";
+doSomething();
+a.toUpperCase();
+//Should be error
 
+```
 
 
 

@@ -7,7 +7,7 @@ openssl rand -base64 {number}
 xxd -b {filename}
 ```
 - 查看压缩率
-`gzip -l {filename`
+`gzip -l {filename}`
 - 查看本机 IP 地址
 ```sh
 ip a
