@@ -2,10 +2,11 @@
   "accentColor": "",
   "cssTheme": "Obsidian Nord",
   "baseFontSize": 18,
-  "interfaceFontFamily": "JetBrains Mono NL",
+  "interfaceFontFamily": "JetBrains Mono NL,Iosevka",
   "theme": "obsidian",
   "translucency": false,
   "nativeMenus": false,
   "showViewHeader": false,
-  "textFontFamily": "霞鹜文楷 屏幕阅读版,霞鹜文楷"
+  "textFontFamily": "霞鹜文楷 屏幕阅读版,霞鹜文楷",
+  "monospaceFontFamily": "JetBrains Mono"
 }

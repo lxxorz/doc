@@ -6,13 +6,13 @@
 
 ### 缓存
 关于 http 缓存的前置知识可以参考 [[HTTP-Cache]]
-主要思路就是，对于已经版本化的文件，代码、图片、html 可以直接加强缓存（类似 `chunk.abc12341234.js` 这样带个版本号的文件），其他文件则可以加协商缓存，可以看到所有静态资源的请求都是用充分利用了缓存的
+主要思路就是，对于已经版本化的文件，代码、图片、字体可以直接加强缓存（类似 `chunk.abc12341234.js` 这样带个版本号的文件），其他文件则可以加协商缓存，可以看到所有静态资源的请求都是用充分利用了缓存的
 强缓存的特点是，一直保持不变，协商缓存即使使用了缓存也会存在一次网络请求，
 而强缓存永远不会有网络请求，除非主动清除缓存
-![[media/optimize-cache.png]]
+![](./media/optimize-cache.png)
 #### 分析
 对于 js css img fonts 文件名都是经过了哈希处理的直接加上强缓存
-![[optimize-compress-files.png]]
+![](./optimize-compress-files.png)
 代码如下：
 ```js
 const cache_dir = [
@@ -70,7 +70,7 @@ module.exports = {
 
 ```
 以下是压缩之后的文件
-![[optimize-compression.png]]
+![](./optimize-compression.png)
 **每个文件基本上能够节省 70%~80%左右的带宽**
 
 文件压缩率对比 `gzip -l *.gz`
@@ -79,8 +79,26 @@ module.exports = {
 | ----- | ----- | ----- |
 | 58.2% | 75.8% | 74.9% |
 
-关于 gzip 的简单介绍
-![[http-compression]]
+
+### 网络传输当中如何使用压缩
+![](./http-img.png)
+想要使用压缩，必须客户端支持，浏览器通过指定请求头中的
+```
+Accept-encoding: gzip br deflate
+```
+来表明支持**gzip brotli defalte**格式的压缩算法
+当请求发送给服务器之后，服务器最终决定使用哪种**压缩算法**，然后通过指定响应头中的
+```
+Content-Encoding: gzip
+```
+来告诉浏览器：“hey，我们使用 gzip 吧😘”
+
+
+## 引申
+![](./optimize-compress-image.png)
+在实践中，一般只对文本文件压缩，为什么不对图片压缩呢？
+如上图所示，对 png 格式的图片采用 gzip 压缩，可以看到基本没有效果，这是因为 png 编码之后的结果也是经过了 Deflate 压缩的 
+
 
 ## 性能测试 
 - 桌面环境浏览器
@@ -89,9 +107,9 @@ module.exports = {
 
 ### 测试结果
 - 无缓存的情况下
-![[optimize-no-cache.png]]
+![](./optimize-no-cache.png)
 - 有缓存的情况
-![[optimize-with-cache.png]]
+![](./optimize-with-cache.png)
 
 
 ### 网络传输资源大小对比（首页）
@@ -99,7 +117,7 @@ module.exports = {
 | ------ | ------ |
 |   27 MB     |    236 kB    |
 完全没有缓存的情况下，通过网络传输的资源大概会有 27 MB 左右，当利用了缓存和压缩之后整个系统通过网络传输的资源的大小骤降在 236KB 左右
-![[optimize-resource-size.png]]
+![](./optimize-resource-size.png)
 ## 结论
 在网络环境较差的情况，通过优化网络请求，增加压缩和缓存，能够极其显著的改善用户的体验，并且节省服务器带宽节省成本。
 
