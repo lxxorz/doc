@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
+                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
+                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
+                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md"
+                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md"
               }
             }
           },
@@ -155,6 +155,7 @@
   },
   "active": "8654c7c765c3d75c",
   "lastOpenFiles": [
+    "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
     "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
     "Language/English/英语学习方法论.md",
     "前端基础系列/网络/http-compression.md",
@@ -163,7 +164,6 @@
     "前端工程化系列/vite.md",
     "前端工程化系列/vite 插件系列.md",
     "前端基础系列/网络/从浏览器发起的http请求说起.md",
-    "前端基础系列/网络/http-status-code.md",
-    "前端基础系列/网络/Network Model.md"
+    "前端基础系列/网络/http-status-code.md"
   ]
 }
