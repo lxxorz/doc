@@ -1,7 +1,89 @@
-## 什么是控制流
-	
+在 TS 中，CFA 几乎总是接受一个联合体，并且基于代码中的逻辑减少 union type 的中类型数量，
+大多数类型收缩发生在 `if` 条件语句之中
 
-在 TS 中，
+### if statement
+- 使用 `typeof` 类型收缩类型
+```ts
+const input = getUserInput();
+input;// string | number
+if(typeof input === "string") {
+	input; // string
+}
+```
+
+- 使用 `instanceof` 收缩类型
+```ts
+const input = getUserInput();
+input; // number | number[];
+if(input instanceof Array) {
+	input; // number[]
+}
+```
+
+- 使用 `property in object`
+```ts
+ const input = getUserInput();
+ input; // string | {"error": ...}
+ if("error" in input) {
+	 input; // {"error": ...}
+ }
+```
+
+- 类型守卫函数
+```ts
+const input = getUserInput();
+input;  // number | number[];
+
+if(Array.isArray(input)) {
+	input; // number[];
+}
+```
+
+
+### expression
+类型收缩也随着代码做布尔操作的同时发生在同一行
+```ts
+const input = getUserInput();
+input; // number | string;
+
+const inputLength = 
+	  (typeof input === "string" && input.length /*string*/) || input
+
+```
+
+### discriminated unions
+[标签联合 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/%E6%A0%87%E7%AD%BE%E8%81%94%E5%90%88)
+能够区分中所有成员的共同属性 `status`
+```ts
+type response = 
+	  | {status: 200, data: any}
+	  | {status: 301, to: string}
+	  | {status: 400, error: Error}
+
+const response = getResponse();
+switch(response.status) {
+	case 200: return response.data;
+	case 301: return redirect(to);
+	case 400: return return reponse.error
+}
+```
+
+### type guards
+类型守护函数能够收缩类型
+```ts
+const isErrorResponse(obj:Response) {
+	return obj instanceof ErrorResponse
+}
+
+const response = getResponse();
+
+if(isErrorResponse(obj)) {
+	obj;// ErrorResponse;
+}
+```
+
+CFA 也会导致一些问题
+
 ```ts
 let a = false;
 doSomething();
@@ -17,28 +99,9 @@ function doSomething(){
 	a = true;
 }
 ```
-也许能做到根据函数调用来检查变量是否被重新赋值，但是目前 TS 实现起来比较困难，
-所以目前针对函数调用，有两种可行的策略
-- 乐观策略
-乐观策略认为函数永远不会修改外部的变量，因此以下代码就会报错
-```
-let a = false;
-doSomething();
 
-if(a === true){
-	//error
-}
-```
 
-- 悲观策略
-悲观策略认为，所有函数调用都存在将可达的变量修改的可能性。所以会将所有类型收缩的变量的类型重置
-```ts
-let a = "hello world";
-doSomething();
-a.toUpperCase();
-//Should be error
 
-```
 
 
 参考
