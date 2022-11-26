@@ -76,7 +76,6 @@ const isErrorResponse(obj:Response) {
 }
 
 const response = getResponse();
-response; //Response;
 
 if(isErrorResponse(obj)) {
 	obj;// ErrorResponse;
