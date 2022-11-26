@@ -69,7 +69,7 @@ switch(response.status) {
 ```
 
 ### type guards
-类型守护函数能够收缩类型
+类型守护函数能够收缩类型 **（？待定）**
 ```ts
 const isErrorResponse(obj:Response) {
 	return obj instanceof ErrorResponse
@@ -101,7 +101,9 @@ function doSomething(){
 ```
 
 
+```ts
 
+```
 
 
 参考
