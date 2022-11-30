@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "06bef5c57b8491f8",
+        "id": "dda1de7f9bc9cefc",
         "type": "tabs",
         "children": [
           {
-            "id": "15978d257134ef35",
+            "id": "6014c87618d6ea4b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "前端基础系列/typescript/Typescript 控制流分析和权衡.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,17 +145,17 @@
     "width": 331.5,
     "collapsed": true
   },
-  "active": "15978d257134ef35",
+  "active": "d8fff2abaeaec633",
   "lastOpenFiles": [
-    "数学康复训练/概率论/资源参考.md",
-    "数学康复训练/信息论/资源参考.md",
-    "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
-    "Language/English/语法/虚拟语气.md",
-    "Language/English/语法/时态.md",
-    "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
-    "Language/English/英语学习方法论.md",
-    "前端基础系列/网络/http-compression.md",
-    "前端基础系列/优化/optimize.md",
-    "media/optimize-cache.png"
+    "未命名.md",
+    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
+    "前端工程化系列/前端性能测试.md",
+    "前端工程化系列/构建工具历史.md",
+    "前端工程化系列/css预处理/postcss.md",
+    "前端基础系列/网络/跨域.md",
+    "前端基础系列/数学/熵.md",
+    "前端基础系列/网络/从浏览器发起的http请求说起.md",
+    "前端基础系列/网络/HTTP-Cache.md",
+    "数学康复训练/信息论/定义.md"
   ]
 }
