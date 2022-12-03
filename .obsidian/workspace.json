@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "dda1de7f9bc9cefc",
+        "id": "d170ea0f87d81efa",
         "type": "tabs",
         "children": [
           {
-            "id": "6014c87618d6ea4b",
+            "id": "9a6911f83fe0d2ed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化系列/git/git flow.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端工程化系列/git/git flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "前端工程化系列/git/git flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "前端工程化系列/git/git flow.md"
+              }
             }
           },
           {
@@ -145,17 +153,17 @@
     "width": 331.5,
     "collapsed": true
   },
-  "active": "d8fff2abaeaec633",
+  "active": "9a6911f83fe0d2ed",
   "lastOpenFiles": [
-    "未命名.md",
     "前端基础系列/CSS/新提案-CSS Nesting Module.md",
-    "前端工程化系列/前端性能测试.md",
-    "前端工程化系列/构建工具历史.md",
-    "前端工程化系列/css预处理/postcss.md",
-    "前端基础系列/网络/跨域.md",
-    "前端基础系列/数学/熵.md",
-    "前端基础系列/网络/从浏览器发起的http请求说起.md",
+    "前端工程化系列/git/git flow.md",
+    "前端基础系列/网络/http-compression.md",
     "前端基础系列/网络/HTTP-Cache.md",
-    "数学康复训练/信息论/定义.md"
+    "前端基础系列/网络/跨域.md",
+    "前端基础系列/网络/从浏览器发起的http请求说起.md",
+    "前端工程化系列/css预处理/postcss.md",
+    "前端基础系列/压缩算法/LZ77.md",
+    "前端基础系列/压缩算法/算术编码.md",
+    "前端工程化系列/构建工具历史.md"
   ]
 }
