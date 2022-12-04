@@ -143,6 +143,7 @@ no-store 很好理解，彻底的不存储、不重用缓存！no-cache 则代�
 另外有一个 must-validate 指令，它告诉客户端如果缓存过期了，必须重新验证
 
 #### 迷惑的地方
+max-age 是一个 general header 在请求和响应当中都存在的 header
 * 请求头当中的 max-age 和响应头当中的 max-age 有何区别
 [请求头当中的 max-age 表示，客户端期望响应中 max-age 应该等于或者小于响应头给出的值,不过根据标准，请求头中的缓存指令都是建议性的，可以实现，但不强制要求](https://httpwg.org/specs/rfc9111.html#cache-request-directive)
 

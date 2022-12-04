@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d170ea0f87d81efa",
+        "id": "dda1de7f9bc9cefc",
         "type": "tabs",
         "children": [
           {
-            "id": "9a6911f83fe0d2ed",
+            "id": "d00df2a24b3eaa55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化系列/git/git flow.md",
+                "file": "前端基础系列/网络/TCP基础知识.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化系列/git/git flow.md",
+                "file": "前端基础系列/网络/TCP基础知识.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化系列/git/git flow.md",
+                "file": "前端基础系列/网络/TCP基础知识.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化系列/git/git flow.md"
+                "file": "前端基础系列/网络/TCP基础知识.md"
               }
             }
           },
@@ -153,17 +153,17 @@
     "width": 331.5,
     "collapsed": true
   },
-  "active": "9a6911f83fe0d2ed",
+  "active": "d00df2a24b3eaa55",
   "lastOpenFiles": [
-    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
-    "前端工程化系列/git/git flow.md",
-    "前端基础系列/网络/http-compression.md",
+    "media/net-tcp-procedure.png",
+    "前端基础系列/网络/TCP基础知识.md",
     "前端基础系列/网络/HTTP-Cache.md",
-    "前端基础系列/网络/跨域.md",
-    "前端基础系列/网络/从浏览器发起的http请求说起.md",
+    "前端基础系列/网络/【翻译】万维网简史.md",
+    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
+    "未命名.md",
+    "前端工程化系列/前端性能测试.md",
+    "前端工程化系列/构建工具历史.md",
     "前端工程化系列/css预处理/postcss.md",
-    "前端基础系列/压缩算法/LZ77.md",
-    "前端基础系列/压缩算法/算术编码.md",
-    "前端工程化系列/构建工具历史.md"
+    "前端基础系列/网络/跨域.md"
   ]
 }
