@@ -14,5 +14,6 @@
     "en-US"
   ],
   "defaultViewMode": "source",
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "vimMode": true
 }
