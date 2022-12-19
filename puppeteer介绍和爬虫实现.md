@@ -201,6 +201,25 @@ const util = require('util');
 ~~~
 ```
 
+```ad-note
+title: 注意异步API的使用
+由于存在各种网络请求所以异步操作比较多，通常会使用到`Promise.all`或者`Promise.race`两个方法，需要注意的最好不要在race里面调用一些有副作用的函数
+~~~ts
+await Promise.race([
+	// 出现验证码界面
+	page.WaitForSelector(validate_selector).then(inputCode)
+	// 出现结果界面
+	page.WaitForSelector(page_selector)
+])
+
+// 如果是空页面
+if(page.$(validate_selector)) {
+	return ;
+}
+page.$$eval(page_selector, parsePageFunction)
+~~~
+这段代码的问题在于，race函数中，如果`page.waitForSelector(page_selector)`已经resolve了，但是`page.waitForSelector(validate_selector).then(inputCode)`是不会中断的，一旦出现验证码，那么可能就会执行很多次inputCode
+```
 ## 现有的缺点
 - 速度慢
 - 对百度的验证码无能无力

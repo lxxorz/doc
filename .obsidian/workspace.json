@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "669f780d4684d221",
+        "id": "cf9afc2cbee39026",
         "type": "tabs",
         "children": [
           {
-            "id": "673a71fe794966c8",
+            "id": "426b3d79c3b7d5aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "puppeteer介绍和爬虫实现.md",
+                "file": "技术关注.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "puppeteer介绍和爬虫实现.md",
+                "file": "技术关注.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "puppeteer介绍和爬虫实现.md",
+                "file": "技术关注.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "puppeteer介绍和爬虫实现.md"
+                "file": "技术关注.md"
               }
             }
           },
@@ -146,24 +146,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 331.5,
+    "collapsed": true
   },
-  "active": "673a71fe794966c8",
+  "active": "426b3d79c3b7d5aa",
   "lastOpenFiles": [
-    "puppeteer介绍和爬虫实现.md",
-    "专利.md",
-    "工作流程优化.md",
-    "测试.md",
+    "前端基础系列/网络/Connection.md",
     "关于RFC的注意事项.md",
-    "前端工程化系列/规范化版本发布流程.md",
-    "media/scrap-advance-search.png",
-    "前端基础系列/LINUX 常用命令 cheet-sheet.md",
-    "前端基础系列/网络/连接.md",
-    "前端基础系列/网络/TCP基础知识.md"
+    "技术关注.md",
+    "puppeteer介绍和爬虫实现.md",
+    "前端基础系列/vueuse 最佳实践.md",
+    "前端基础系列/爬虫技术.md",
+    "前端基础系列/网络/TCP基础知识.md",
+    "media/net-tcp-procedure.png",
+    "前端基础系列/网络/HTTP-Cache.md",
+    "前端基础系列/网络/【翻译】万维网简史.md"
   ]
 }
