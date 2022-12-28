@@ -60,7 +60,9 @@ flowchart LR
 	client -->|未命中| cache ==> |重新验证| server
 	server ==>|验证结果| client
 ```
-验证结果如果状态码是 304 那么代码资源未更改，否则当作一次全新的请求,有两组 header 字段来验证资源是否修改，
+验证结果如果状态码是 304 那么代码资源未更改，否则当作一次全新的请求, 有两组 header 字段来验证资源是否修改，
+
+#### 基于文件的修改时间验证新鲜度
 * Last-Modified/If-Not-Modified
 ```http
 HTTP/1.1 200 OK
@@ -72,6 +74,7 @@ Cache-Control: max-age=3600
 ```
 响应头中包含 Last-Modified 告知文件被修改的时间，然后再次发起请求时，在请求头中携带'If-Modified-Match'给服务器，服务器通过对比两个时间，来决定是否返回完整的响应
 
+#### 基于实体标签验证资源新鲜度
 * Etag/If-None-Match
 Etag 是一个资源标识符，是由服务器生成的字符串，它可以代表服务器上的某个资源
 ```mermaid
@@ -135,6 +138,14 @@ flowchart TB
 -   [nginx](http://nginx.org/en/docs/http/ngx_http_headers_module.html)
 -   [Firebase Hosting](https://firebase.google.com/docs/hosting/full-config)
 -   [Netlify](https://www.netlify.com/blog/2017/02/23/better-living-through-caching/)
+
+#### 为什么使用ETag
+相比于使用修改时间来检测新鲜度，在以下场景中 ETag 会更有用
+1. 周期性的重复写文件，但是文件内容没有变，只有文件的修改时间变了
+2. 文档被更改了，但是变更的内容并不重要（注释等等）
+3. 有些服务器没法判断页面的最后修改日期
+4. 服务器提供的文档可能会在短时间内变换（亚秒级别）
+
 #### 如何禁止使用缓存
 出于安全、隐私或者其他需求，某些场景下需要禁用缓存
 - no-store
