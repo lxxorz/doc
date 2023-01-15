@@ -1,5 +1,4 @@
 [
-  "obsidian-local-images",
   "obsidian-git",
   "table-editor-obsidian",
   "obsidian-banners",
@@ -8,5 +7,8 @@
   "obsidian-latex-suite",
   "obsidian-linter",
   "obsidian-admonition",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-drag-n-drop-plugin",
+  "obsidian-local-images-plus",
+  "obsidian-hover-editor"
 ]

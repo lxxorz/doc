@@ -5,9 +5,9 @@
 - 关联系统的版本，每次发布一个新的版本的时候，自动更新所有 ` package.json ` 的 version
 
 
-## 使用
-1. 执行 `pnpm run release` 命令，构建出对应的文件
-2. 执行命令 `pnpm run tag`，然后选择对应的版本
+## 如何使用
+1. `pnpm run release`，构建文件
+2. `pnpm run tag`，自动将构建出来的文件生成一个 commit，和版本 tag，最后推送到远端仓库
 ![[tag-version.png]]
 如果是特殊版本，则选择自定义，如果输入输入的版本不符合规范比如 `eh_v4.12.xy` 则会报错
 

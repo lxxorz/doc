@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "203a207ed5dd04fd",
+        "id": "c84f7622ffc66ec1",
         "type": "tabs",
         "children": [
           {
-            "id": "9e6857c3615f4cec",
+            "id": "b16bf16eccd9c518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "关于RFC的注意事项.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 459.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "关于RFC的注意事项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md",
+                "file": "关于RFC的注意事项.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/网络/HTTP-Cache.md"
+                "file": "关于RFC的注意事项.md"
               }
             }
           },
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,17 +165,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "9e6857c3615f4cec",
+  "active": "b16bf16eccd9c518",
   "lastOpenFiles": [
-    "规范tag发布过程.md",
-    "media/tag/tag-update-version 1.png",
-    "工作流程优化.md",
+    "技术关注.md",
+    "前端工程化系列/CI-CD/前端性能测试.md",
+    "4b9a905e8857d6bb62b976fcfcde088d_MD5.gif",
     "关于RFC的注意事项.md",
-    "media/tag/tag-all.png",
-    "Pasted image 20221226105753.png",
-    "Excalidraw/Drawing 2022-12-26 10.57.26.excalidraw.md",
-    "Excalidraw/Drawing 2022-12-26 10.51.46.excalidraw.md",
-    "Excalidraw/Drawing 2022-12-26 10.51.38.excalidraw.md",
-    "media/tag/tag-version.png"
+    "测试.md",
+    "media/conflicts.png",
+    "前端基础系列/优化/优化/optimize.md",
+    "前端基础系列/优化/优化/optimize-no-cache.png",
+    "media/rfc.png",
+    "media/optimize-resource-size.png"
   ]
 }

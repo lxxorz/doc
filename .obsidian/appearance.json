@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
-  "baseFontSize": 16,
+  "cssTheme": "Shimmering Focus",
+  "baseFontSize": 15,
   "interfaceFontFamily": "JetBrains Mono NL,Iosevka",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "translucency": false,
   "nativeMenus": false,
   "showViewHeader": false,

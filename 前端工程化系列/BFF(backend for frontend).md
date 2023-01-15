@@ -1,3 +1,0 @@
-* BFF
-* Service worker
-todo...

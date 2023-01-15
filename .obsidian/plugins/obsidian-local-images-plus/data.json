@@ -1,0 +1,12 @@
+{
+  "downUnknown": false,
+  "saveAtt": "nextToNote",
+  "realTimeUpdate": false,
+  "filesizeLimit": 0,
+  "realTimeUpdateInterval": 5,
+  "addNameOfFile": true,
+  "showNotifications": true,
+  "include": ".*\\.md",
+  "mediaRootDirectory": "_resources",
+  "useWikilinks": false
+}

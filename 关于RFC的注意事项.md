@@ -4,3 +4,4 @@
 4. 在 RFC 里面也有 Obsoletes 这个部分列出已经过时的 RFC 版本 ![[rfc.png]] 
 5. RFC 使用 ABNF 形式化语言来描述各种名词定义[RFC 5234 - Augmented BNF for Syntax Specifications: ABNF (ietf.org)](https://datatracker.ietf.org/doc/html/rfc5234)
 关于更多 RFC 的细节，参考 [IETF | How to Read an RFC](https://www.ietf.org/blog/how-read-rfc/)
+
