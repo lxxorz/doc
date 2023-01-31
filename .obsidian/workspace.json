@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c84f7622ffc66ec1",
+        "id": "81ad1a157bdd7c20",
         "type": "tabs",
         "children": [
           {
-            "id": "a9c8d8f1e9bf24c1",
+            "id": "64944fa7bd2efb1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学康复训练/信息论/热身.md",
+                "file": "前端工程化系列/CI-CD/gitlab-pipline.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/信息论/热身.md",
+                "file": "前端工程化系列/CI-CD/gitlab-pipline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/信息论/热身.md",
+                "file": "前端工程化系列/CI-CD/gitlab-pipline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/信息论/热身.md"
+                "file": "前端工程化系列/CI-CD/gitlab-pipline.md"
               }
             }
           },
@@ -166,17 +166,17 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "a9c8d8f1e9bf24c1",
+  "active": "64944fa7bd2efb1e",
   "lastOpenFiles": [
+    "wsl.md",
+    "前端工程化系列/CI-CD/gitlab-pipline.md",
+    "前端工程化系列/CI-CD/GitLab-CI-CD.md",
+    "前端工程化系列/CI-CD/GitLab-CI-CD_res/持续交付典型过程.png",
+    "前端工程化系列/git/git flow.md",
+    "前端工程化系列/git/规范tag发布过程.md",
+    "数学康复训练/信息论/热身.md",
     "数学康复训练/信息论/定义.md",
-    "数学康复训练/概率论/资源参考.md",
-    "前端基础系列/vueuse 最佳实践.md",
-    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
-    "前端基础系列/puppeteer介绍和爬虫实现.md",
-    "前端基础系列/CSS/Reflow and Repaint.md",
-    "前端基础系列/LINUX 常用命令 cheet-sheet.md",
-    "前端基础系列/爬虫技术.md",
-    "关于RFC的注意事项.md",
-    "技术关注.md"
+    "前端工程化系列/CI-CD/使用Lighthouse进行性能测试.md",
+    "前端工程化系列/CI-CD/前端性能测试.md"
   ]
 }
