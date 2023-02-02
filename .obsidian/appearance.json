@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Minimal",
+  "cssTheme": "Willemstad",
   "baseFontSize": 16,
   "interfaceFontFamily": "JetBrains Mono NL,Iosevka",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": false,
   "nativeMenus": false,
   "showViewHeader": false,
