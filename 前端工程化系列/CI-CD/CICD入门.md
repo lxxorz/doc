@@ -100,4 +100,3 @@ job: lint-code
 ```yml
 image: 'node:18-slim'
 ```
-

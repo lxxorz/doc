@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化系列/CI-CD/代码质量检测-SonarQube.md",
+                "file": "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化系列/CI-CD/代码质量检测-SonarQube.md",
+                "file": "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端工程化系列/CI-CD/代码质量检测-SonarQube.md",
+                "file": "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端工程化系列/CI-CD/代码质量检测-SonarQube.md"
+                "file": "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md"
               }
             }
           },
@@ -170,12 +169,12 @@
   },
   "active": "d8fff2abaeaec633",
   "lastOpenFiles": [
-    "前端工程化系列/CI-CD/使用Lighthouse进行性能测试.md",
-    "前端工程化系列/CI-CD/代码质量检测-SonarQube_appendix/SonarQube.png",
-    "Pasted image 20230201142355.png",
-    "前端工程化系列/CI-CD/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/前端性能测试.md",
+    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix/SonarQube.png",
     "前端工程化系列/CI-CD/CICD入门.md",
+    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
+    "前端工程化系列/CI-CD/使用Lighthouse进行性能测试.md",
+    "Pasted image 20230201142355.png",
+    "前端工程化系列/CI-CD/前端性能测试.md",
     "前端工程化系列/CI-CD/GitLab-CI-CD.md",
     "前端工程化系列/CI-CD/GitLab-CI-CD_res/持续交付典型过程.png",
     "runner.png",
