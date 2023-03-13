@@ -82,9 +82,7 @@ var StillePlugin = class extends import_obsidian.Plugin {
         callback: () => {
           this.toggleStille();
         },
-        hotkeys: [
-          { modifiers: ["Mod", "Shift"], key: "S" }
-        ]
+        hotkeys: [{ modifiers: ["Mod", "Shift"], key: "S" }]
       });
       this.addSettingTab(new StilleSettingTab(this.app, this));
       this.stilleStatus = true;
@@ -187,12 +185,24 @@ var StilleSettingTab = class extends import_obsidian.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    containerEl.createEl("h3", { text: `${nameOfApplication} \u2014 Focus on your writing.` });
-    containerEl.createEl("h4", { text: "v" + this.plugin.manifest.version });
-    containerEl.createEl("a", { text: `Learn more about ${nameOfApplication}`, href: "https://michaelsoolee.com/obsidian-focus-plugin-stille/" });
+    containerEl.createEl("h3", {
+      text: `${nameOfApplication} \u2014 Focus on your writing.`
+    });
+    containerEl.createEl("h4", {
+      text: "v" + this.plugin.manifest.version
+    });
+    containerEl.createEl("a", {
+      text: `Learn more about ${nameOfApplication}`,
+      href: "https://michaelsoolee.com/obsidian-focus-plugin-stille/"
+    });
     containerEl.createEl("br");
-    containerEl.createEl("span", { text: `If ${nameOfApplication} has helped you focus, consider buying me a slice of pizza \u{1F355} ` });
-    containerEl.createEl("a", { text: "Buy Michael, a slice of pizza", href: "https://michaellee.gumroad.com/l/buy-michael-pizza" });
+    containerEl.createEl("span", {
+      text: `If ${nameOfApplication} has helped you focus, consider buying me a slice of pizza \u{1F355} `
+    });
+    containerEl.createEl("a", {
+      text: "Buy Michael, a slice of pizza",
+      href: "https://michaellee.gumroad.com/l/buy-michael-pizza"
+    });
     containerEl.createEl("br");
     containerEl.createEl("br");
     new import_obsidian.Setting(containerEl).setName("Opacity level for unfocused text").setDesc("This is the opacity level for text that is unfocused. This value should be a decimal value from 0.0 to 1.0.").addText((text) => text.setPlaceholder("A value from 0.0 to 1.0").setValue(this.plugin.settings.unfocusedLevel + "").onChange((value) => __async(this, null, function* () {

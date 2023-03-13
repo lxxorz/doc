@@ -16,5 +16,6 @@
   "defaultViewMode": "source",
   "showInlineTitle": false,
   "vimMode": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "showLineNumber": true
 }

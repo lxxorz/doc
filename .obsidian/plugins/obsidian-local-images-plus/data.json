@@ -1,5 +1,8 @@
 {
-  "downUnknown": false,
+  "useCaptions": true,
+  "useRelativePath": false,
+  "mediaFolderSuff": "|-resources",
+  "downUnknown": true,
   "saveAtt": "nextToNote",
   "realTimeUpdate": false,
   "filesizeLimit": 0,
@@ -8,5 +11,5 @@
   "showNotifications": true,
   "include": ".*\\.md",
   "mediaRootDirectory": "_resources",
-  "useWikilinks": false
+  "useWikilinks": true
 }
