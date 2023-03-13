@@ -20168,6 +20168,7 @@ var IsomorphicGit = class extends GitManager {
     this.fs = new MyAdapter(this.app.vault, this.plugin);
   }
   getRepo() {
+    var _a2;
     return {
       fs: this.fs,
       dir: this.plugin.settings.basePath,

@@ -6,7 +6,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "promptDelete": false,
+  "promptDelete": true,
   "foldHeading": false,
   "spellcheck": true,
   "alwaysUpdateLinks": true,

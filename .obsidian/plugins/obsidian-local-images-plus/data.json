@@ -4,7 +4,7 @@
   "mediaFolderSuff": "|-resources",
   "downUnknown": true,
   "saveAtt": "nextToNote",
-  "realTimeUpdate": false,
+  "realTimeUpdate": true,
   "filesizeLimit": 0,
   "realTimeUpdateInterval": 5,
   "addNameOfFile": true,
