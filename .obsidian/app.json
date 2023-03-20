@@ -18,5 +18,7 @@
   "vimMode": false,
   "showFrontmatter": true,
   "showLineNumber": true,
-  "livePreview": true
+  "livePreview": true,
+  "attachmentFolderPath": "./",
+  "newFileLocation": "current"
 }

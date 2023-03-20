@@ -1,13 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "Dracula Official",
+  "cssTheme": "",
   "baseFontSize": 16,
   "interfaceFontFamily": "JetBrains Mono NL,Iosevka",
-  "theme": "moonstone",
+  "theme": "system",
   "translucency": true,
   "nativeMenus": false,
   "showViewHeader": false,
-  "textFontFamily": "霞鹜文楷 屏幕阅读版,霞鹜文楷",
+  "textFontFamily": "霞鹜文楷等宽,霞鹜文楷",
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSizeAction": false
 }
