@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "bc8e2f46fcd88fb1",
+        "id": "cb306e1b1b9f7f95",
         "type": "tabs",
         "children": [
           {
-            "id": "f2abb6c258b82725",
+            "id": "eb276807f4ba7826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/3d数学基础.md",
+                "file": "可视化/图形学/GAMES-101/现代图形学入门.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df781fb7c024114e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "可视化/图形学/GAMES-101/数学证明.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "可视化/3d数学基础.md",
+                "file": "可视化/图形学/GAMES-101/数学证明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "可视化/3d数学基础.md",
+                "file": "可视化/图形学/GAMES-101/数学证明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "可视化/3d数学基础.md"
+                "file": "可视化/图形学/GAMES-101/数学证明.md"
               }
             }
           },
@@ -146,12 +159,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 331.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,10 +180,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f2abb6c258b82725",
+  "active": "df781fb7c024114e",
   "lastOpenFiles": [
+    "可视化/图形学/GAMES-101/现代图形学入门.md",
+    "可视化/图形学/GAMES-101/数学证明.md",
+    "可视化/图形学/GAMES-101",
+    "可视化/图形学",
     "组合式api最佳实践.md",
-    "可视化/3d数学基础.md",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix/SonarQube.png",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",

@@ -17,5 +17,6 @@
   "showInlineTitle": false,
   "vimMode": false,
   "showFrontmatter": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "livePreview": true
 }
