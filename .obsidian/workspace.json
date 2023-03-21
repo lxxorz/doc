@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -168,6 +169,7 @@
   },
   "active": "d24ceca317923995",
   "lastOpenFiles": [
+    "可视化/图形学/GAMES-101/proof-projection.png",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "可视化/图形学/GAMES-101/Pasted image 20230319225825.png",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
