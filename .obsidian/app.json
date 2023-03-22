@@ -7,7 +7,7 @@
     "downscalePercent": 100
   },
   "promptDelete": true,
-  "foldHeading": false,
+  "foldHeading": true,
   "spellcheck": true,
   "alwaysUpdateLinks": true,
   "spellcheckLanguages": [
