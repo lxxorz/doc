@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c0732b4d26dcf82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "数学康复训练/线性代数/线性变换.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,10 +166,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2c0732b4d26dcf82",
+  "active": "e7293fd8876e09d2",
   "lastOpenFiles": [
-    "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
+    "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "数学康复训练/线性代数/线性变换.md",
     "数学康复训练/线性代数",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
@@ -203,7 +190,6 @@
     "可视化/图形学/GAMES-101/Pasted image 20230318171251.png",
     "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
     "Pasted image 20230203105459.png",
-    "前端工程化系列/runner.png",
     "可视化/图形学/GAMES-101",
     "可视化/图形学",
     "组合式api最佳实践.md",
