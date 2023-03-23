@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5d11c651f90fe225",
+        "id": "88468db2461da208",
         "type": "tabs",
         "children": [
           {
-            "id": "d8680d6e39753e30",
+            "id": "e7293fd8876e09d2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "可视化/图形学/GAMES-101/图形学入门相关数学证明.md"
+              }
             }
           },
           {
@@ -158,7 +166,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "d8680d6e39753e30",
+  "active": "e7293fd8876e09d2",
   "lastOpenFiles": [
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
