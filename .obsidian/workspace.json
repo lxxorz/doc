@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "433cd881bf0c37b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fff573e5fb486117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/线性代数/线性相关.md",
+                "file": "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/线性代数/线性相关.md",
+                "file": "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/线性代数/线性相关.md"
+                "file": "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md"
               }
             }
           },
@@ -167,10 +192,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3eb68b299bafc5a5",
+  "active": "fff573e5fb486117",
   "lastOpenFiles": [
-    "数学康复训练/线性代数/线性变换.md",
+    "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
+    "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
+    "数学康复训练/线性代数/chatgpt.png",
     "数学康复训练/线性代数/线性相关.md",
+    "数学康复训练/线性代数/线性变换.md",
     "数学康复训练/线性代数/Pasted image 20230325212607.png.md",
     "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "数学康复训练/线性代数/null-space.png",
@@ -194,7 +222,6 @@
     "可视化/图形学/GAMES-101/right-hand-rule.png",
     "可视化/图形学/GAMES-101/y-rotation-axis.png",
     "可视化/图形学/GAMES-101/rotation-axis.png",
-    "可视化/图形学/GAMES-101/Pasted image 20230318171251.png",
     "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
     "可视化/图形学/GAMES-101",
     "可视化/图形学",
