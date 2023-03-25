@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "cc9c936c42ff23eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "094d8c5ae7e03286",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cadce8fa15ce6a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/线性变换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f7cc3d846813d25",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8f54b2305fb52be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8fff2abaeaec633",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c04a101e27f1a0b9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "right-handle-law.png",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "655db1c227089562",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "right": {
+    "id": "8becc1770bbc8ceb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7a4e1483f206fc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "72c4724d69cbb564",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "数学康复训练/线性代数/线性变换.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "025d9f67a4dca1ba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数学康复训练/线性代数/线性变换.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80da1b39e6f5b2f0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "2999209e12328de2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数学康复训练/线性代数/线性变换.md"
+              }
+            }
+          },
+          {
+            "id": "27d8d37d315d8948",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0af9f18a8dfcf34",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-stille:Toggle Stille": false,
+      "oz-clear-unused-images:Clear Unused Images": false
+    }
+  },
+  "active": "d8fff2abaeaec633",
+  "lastOpenFiles": [
+    "数学康复训练/线性代数/线性变换.md",
+    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
+    "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
+    "数学康复训练/线性代数",
+    "书籍/大型项目如何编写和维护CSS-大漠.pdf",
+    "可视化/图形学/GAMES-101/proof-projection.png",
+    "可视化/图形学/GAMES-101/Pasted image 20230319225825.png",
+    "可视化/图形学/GAMES-101/现代图形学入门.md",
+    "数学证明.md",
+    "书籍/OpenGL Programming Guide 9th Edition.pdf",
+    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
+    "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
+    "书籍",
+    "新建文件夹",
+    "未命名.canvas",
+    "可视化/图形学/GAMES-101/right-handle-law.png",
+    "可视化/图形学/GAMES-101/right-hand-rule.png",
+    "可视化/图形学/GAMES-101/y-rotation-axis.png",
+    "可视化/图形学/GAMES-101/rotation-axis.png",
+    "可视化/图形学/GAMES-101/Pasted image 20230318171251.png",
+    "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
+    "Pasted image 20230203105459.png",
+    "可视化/图形学/GAMES-101",
+    "可视化/图形学",
+    "组合式api最佳实践.md",
+    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix",
+    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
+    "前端工程化系列/CI-CD/质量检测",
+    "前端工程化系列/CI-CD/CICD入门.md",
+    "工具/开发利器.md",
+    "前端基础系列/CSS/现代网页布局.md",
+    "前端工程化系列/包管理工具/pnpm 如何处理依赖.md",
+    "数学康复训练/信息论/资源参考.md",
+    "数学康复训练/信息论/热身.md",
+    "数学康复训练/信息论/定义.md",
+    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
+    "数学康复训练/概率论/资源参考.md",
+    "前端基础系列/vueuse 最佳实践.md",
+    "前端基础系列/puppeteer介绍和爬虫实现.md",
+    "前端基础系列/CSS/Reflow and Repaint.md"
+  ]
+}
