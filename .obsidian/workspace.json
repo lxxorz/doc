@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-7-主向量-特解.md",
+                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
+                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -241,14 +241,14 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "20a45feac1f0c72b",
+  "active": "13ea06f5b319114d",
   "lastOpenFiles": [
+    "数学康复训练/线性代数/chapter-7-主向量-特解.md",
+    "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
     "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
     "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
     "数学康复训练/线性代数/chapter-4-A的LU分解.md",
-    "数学康复训练/线性代数/chapter-7-主向量-特解.md",
-    "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
