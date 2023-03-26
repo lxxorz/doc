@@ -17,8 +17,35 @@ $$
 \end{pmatrix}
 \to
 \begin{pmatrix}
-\otimes1 & 2 & 2 & 2 \\
-0 & 0 & 2 & 4 \\
+\boxed{1} & 2 & 2 & 2 \\
+0 & 0 & \boxed{2} & 4 \\
 0 & 0 & 0 & 0
-\end{pmatrix}
+\end{pmatrix}=U
+$$
+这里的主元（pivots）分别是 $\boxed{1}$ 和 $\boxed{2}$，主元的数量称之为这个矩阵的秩 (rank)。主元所在的列称之为主列 (pivots column)。其他列则称之为自由列。
+
+这里的自由列在求解 $Ux=0$ 时可以自由分配值
+$$
+\begin{align}
+x_{1}+2x_{2}+2x_{3}+2x_{4}&=0 \\
+2x_{3}+4x_{4}&=0
+\end{align}
+$$
+分配 $x_{4}=1$，$x_{2}=0$ 回代得到
+$$
+\begin{cases}
+x_{1}=2 \\
+x_{2}=0 \\
+x_{3}=-2 \\
+x_{4}=1
+\end{cases}
+$$
+也可以分配 $x_{2}=1,x_{4}=0$ 得到
+$$
+\begin{cases}
+x_{1}=-2\\
+x_{2}=1 \\
+x_{3}=0 \\
+x_{4}=0
+\end{cases}
 $$
