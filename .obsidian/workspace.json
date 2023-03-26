@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "13ea06f5b319114d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-7-主向量-特解.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
+                "file": "数学康复训练/线性代数/chapter-7-主向量-特解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
+                "file": "数学康复训练/线性代数/chapter-7-主向量-特解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md"
+                "file": "数学康复训练/线性代数/chapter-7-主向量-特解.md"
               }
             }
           },
@@ -205,10 +217,11 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5cafc7c84f522b0d",
+  "active": "13ea06f5b319114d",
   "lastOpenFiles": [
-    "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
+    "数学康复训练/线性代数/chapter-7-主向量-特解.md",
+    "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
@@ -252,7 +265,6 @@
     "数学康复训练/信息论/定义.md",
     "前端基础系列/CSS/新提案-CSS Nesting Module.md",
     "数学康复训练/概率论/资源参考.md",
-    "前端基础系列/vueuse 最佳实践.md",
-    "前端基础系列/puppeteer介绍和爬虫实现.md"
+    "前端基础系列/vueuse 最佳实践.md"
   ]
 }
