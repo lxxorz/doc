@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5cafc7c84f522b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -94,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -111,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-9-线性相关性.md",
+                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-9-线性相关性.md",
+                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-9-线性相关性.md"
+                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md"
               }
             }
           },
@@ -193,8 +204,10 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "fff573e5fb486117",
+  "active": "5cafc7c84f522b0d",
   "lastOpenFiles": [
+    "数学康复训练/线性代数/chapter-9-线性相关性.md",
+    "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
@@ -204,7 +217,6 @@
     "数学康复训练/线性代数/linearly-dependent.png",
     "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
     "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
-    "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
     "数学康复训练/线性代数/chatgpt.png",
     "数学康复训练/线性代数/Pasted image 20230325212607.png.md",
@@ -218,7 +230,6 @@
     "数学康复训练/线性代数",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "可视化/图形学/GAMES-101/proof-projection.png",
-    "可视化/图形学/GAMES-101/Pasted image 20230319225825.png",
     "数学证明.md",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",

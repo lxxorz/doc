@@ -14,27 +14,27 @@
 红蓝向量显然是线性无关的，那么如果再加入第三个向量呢
 
 ![[linearly-dependent-in-subspace-2.png]]
-可以发现，向量 $(2,2)^T$ 落在加入的第三个向量 $(2,0)^T$ 和 $(2,4)^T$ 生成的向量空间中，也就是可以通过图示中蓝色和灰色向量的线性组合来得到红色向量。所以它们是线性相关的。也就是下面这个等式是有解的。
+可以发现，向量 $\vec{v}(2,2)^T$ 落在加入的第三个向量 $\vec{u}=(2,0)^T$ 和 $\vec{w}=(2,4)^T$ 生成的向量空间中，也就是可以通过图示中 $\vec{w}$ 和 $\vec{u}$ 的线性组合来得到中间的 $\vec{v}$。所以它们是线性相关的。
 $$
-\begin{pmatrix}
-2 & 2 \\
-4 & 0
-\end{pmatrix}
-\begin{pmatrix}
-c_{1} \\
-c_{2}
-\end{pmatrix}
-=
-\begin{pmatrix}
-2 \\
-2
-\end{pmatrix}
-$$
-$$
-\begin{cases}
-c_{1}=\frac{1}{2} \\
-c_{2}=\frac{1}{2}
-\end{cases}
+\frac{1}{2}\left( \vec{u}+\vec{w} \right)-\vec{v}=\vec{0}
 $$
 ![[linearly-dependent-addition.png]]
+另外矩阵 $A$ 的零空间存在非零向量也说明它们是线性相关的。
+$$
+Ac=0\quad c=\begin{pmatrix}
+\text{zero}\\
+\text{vector}
+\end{pmatrix}
+$$
+### 基
+如果一个向量组能够生成一个我们想要的向量空间，同时保证他们是线性无关的。那么就称为 「基」。这个向量组包含生成向量空间所需的最少向量。给定一组基就能确定一个子空间。
+
+```ad-summary
+对于给定空间的基向量，每个空间的所需的基向量的个数是相同的。
+```
+
+
+### 维数
+确定的基向量数量，对于空间而言就是它的维数 (dimension)
+
 
