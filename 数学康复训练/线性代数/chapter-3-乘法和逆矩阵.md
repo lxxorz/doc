@@ -110,7 +110,7 @@ $$
 \end{pmatrix}
 $$
 
-### j
+### 不可逆矩阵
 首先回顾一下逆矩阵的定义，存在一个矩阵 $A$，如果
 $$
 A^{-1}A=I
@@ -158,4 +158,47 @@ $$
 ![[Intuitive-interpretation-of-inverse-matrices.png]]
 因此不可能通过这样的线性组合得到单位矩阵。因此也不可能存在逆矩阵。同时也可以得出结论，线性相关的矩阵是不可逆矩阵。因为始终有单位矩阵中的（列或行）向量在他们的向量空间之外
 
-在直观的理解了矩阵是否可逆之后，
+### 高斯-若儿当法求解逆矩阵
+在直观的理解了矩阵是否可逆之后，让我们来求解逆矩阵。考虑矩阵
+$$
+\begin{pmatrix}
+1 & 3 \\
+2 & 7
+\end{pmatrix}
+$$
+第一步写成增广矩阵
+$$
+\left(\begin{array}{cc|cc}
+  1 & 3 & 1 & 0 \\
+  2 & 7 & 0 & 1
+\end{array}\right)
+$$
+
+然后做行阶梯矩阵变换
+$$
+\left(\begin{array}{cc|cc}
+1 & 3 & 1 & 0 \\
+0 & 1 & -2 & 1
+\end{array}\right)
+\to
+\left(\begin{array}{cc|cc}
+\boxed{1} & 0 & 7 & -3 \\
+0 & \boxed{1} & -2 & 1
+\end{array}\right)
+$$
+
+左边矩阵已经变成了单位矩阵 $I$ 右边则是我们要求的 $A$ 的逆矩阵。为什么呢？先用消元矩阵 $E$ 来表示我们的一系列消元操作
+$$
+\left(\begin{array}{c|c}
+A & I
+\end{array}\right)
+\to
+\left(\begin{array}{c|c}
+EA  & EI
+\end{array}\right)
+\to
+\left(\begin{array}{}
+I & E
+\end{array}\right)
+$$
+因为 $EA=I$ 所以这里的 E 就是 A 的逆矩阵 $A^{-1}$ 了
