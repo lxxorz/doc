@@ -24,37 +24,32 @@ $$
 在完成当前章节后，推荐阅读https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra 加强理解
 ```
 
-1. C 矩阵是 A 矩阵列的线性组合
+1. C 矩阵是 B 矩阵的行向量的线性组合
 $$
 \begin{pmatrix}
-\end{pmatrix}
-$$
-可以看成矩阵 A 乘以 B 中每一个列向量然后相加。矩阵 A 乘以 B 中的一个列向量实际就是 A 中列向量的线性组合。
-$$
-\begin{pmatrix}
-a_{11} & \ldots & \cdots & a_{1n} \\
-\vdots & \vdots & \ddots & \vdots \\
-a_{m1} & a_{m2} & \cdots & a_{mn} \\
+a & b & c\\
 \end{pmatrix}
 \begin{pmatrix}
-b_{11}  \\
-b_{21} \\ \\
-\vdots \\
-b_{n1}
+\vec{u} \\
+\vec{v} \\
+\vec{w} 
 \end{pmatrix}
+=
+a\vec{u}+b\vec{v}+c\vec{w}
 $$
-2. C 矩阵是 B 矩阵行的线性组合，
-$$
-\begin{pmatrix}
-a_{11} & a_{12} & \cdots & a_{1n} \\
-\end{pmatrix}
-\begin{pmatrix}
-b_{11} & b_{12} & \cdots & b_{1p} \\
-b_{21} & b_{22} & \cdots & b_{2p} \\
-\vdots & \vdots & \ddots & \vdots \\
-b_{n1} & b_{n2} & \cdots & b_{np} \\
-\end{pmatrix}
 
+
+2. C 矩阵是 A 矩阵行的线性组合，
+$$
+\begin{pmatrix}
+\vec{u}  & \vec{v} & w
+\end{pmatrix}
+\begin{pmatrix}
+a \\
+b \\
+c
+\end{pmatrix}=
+a\vec{u}+b\vec{v}+c\vec{w}
 $$
 3. 列乘以行
 $$

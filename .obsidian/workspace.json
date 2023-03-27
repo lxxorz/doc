@@ -4,11 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "d46f0b0cc4436e0c",
+        "id": "1a900cd297b59a6e",
         "type": "tabs",
         "children": [
           {
-            "id": "2d94e6413b3828cf",
+            "id": "3eb68b299bafc5a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-9-线性相关性.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "433cd881bf0c37b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fff573e5fb486117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-9-线性相关性.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cafc7c84f522b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13ea06f5b319114d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7515dd7b15c4b9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20a45feac1f0c72b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -69,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -145,7 +219,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -166,36 +241,38 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2d94e6413b3828cf",
+  "active": "13ea06f5b319114d",
   "lastOpenFiles": [
-    "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
-    "数学康复训练/线性代数/chapter-4-A的LU分解.md",
-    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
     "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
-    "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
     "数学康复训练/线性代数/chapter-7-主向量-特解.md",
-    "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
-    "数学康复训练/线性代数/null-space.png",
-    "数学康复训练/线性代数/linearly-dependent.png",
-    "数学康复训练/线性代数/chatgpt.png",
-    "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
-    "数学康复训练/线性代数/assets/null-vector-linear-dependent.png",
-    "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
+    "数学康复训练/线性代数/chapter-9-线性相关性.md",
+    "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
+    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+    "数学康复训练/线性代数/chapter-4-A的LU分解.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
+    "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
+    "数学康复训练/线性代数/assets/null-vector-linear-dependent.png",
     "数学康复训练/线性代数/assets",
     "数学康复训练/线性代数/Pasted image 20230326104336.png",
+    "数学康复训练/线性代数/linearly-dependent.png",
+    "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
+    "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
+    "数学康复训练/线性代数/chatgpt.png",
+    "数学康复训练/线性代数/Pasted image 20230325212607.png.md",
+    "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
+    "数学康复训练/线性代数/null-space.png",
     "幻灯片测试.md",
-    "数学康复训练/线性代数/线性变换.md",
-    "数学康复训练/线性代数/dot-cross-product.png",
-    "conflict-files-obsidian-git.md",
-    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
-    "数学康复训练/线性代数.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
+    "conflict-files-obsidian-git.md",
+    "数学康复训练/线性代数.md",
+    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
+    "数学康复训练/线性代数",
+    "书籍/大型项目如何编写和维护CSS-大漠.pdf",
+    "可视化/图形学/GAMES-101/proof-projection.png",
     "数学证明.md",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
-    "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
     "书籍",
     "新建文件夹",
@@ -206,7 +283,6 @@
     "组合式api最佳实践.md",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/质量检测",
     "前端工程化系列/CI-CD/CICD入门.md",
     "工具/开发利器.md",
     "前端基础系列/CSS/现代网页布局.md",
