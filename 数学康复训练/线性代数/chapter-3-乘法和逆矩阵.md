@@ -64,4 +64,98 @@ b_{n1} & b_{n2} & \cdots & b_{np} \\
 
 $$
 3. 列乘以行
-4. 
+$$
+\begin{pmatrix}
+1 \\
+2 \\
+3
+\end{pmatrix}
+\begin{pmatrix}
+1 & 6
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 6 \\
+2 & 12 \\
+3 & 18
+\end{pmatrix}
+$$
+从这个角度看列乘以行生成了一个矩阵，该矩阵是原矩阵的倍数矩阵。现在扩张到两列
+$$
+\begin{pmatrix}
+1 & 2 \\
+2  & 3\\
+3 & 4
+\end{pmatrix}
+\begin{pmatrix}
+1 & 6 \\
+0 & 0
+\end{pmatrix}
+=\begin{pmatrix}
+1 \\
+2 \\
+3
+\end{pmatrix}
+\begin{pmatrix}
+1 & 6
+\end{pmatrix}
++
+\begin{pmatrix}
+2 \\
+3 \\
+4
+\end{pmatrix}
+\begin{pmatrix}
+0 & 0
+\end{pmatrix}
+$$
+
+### j
+首先回顾一下逆矩阵的定义，存在一个矩阵 $A$，如果
+$$
+A^{-1}A=I
+$$
+那么称 $A^{-1}$ 是矩阵 $A$ 的逆矩阵。然后考虑这样一个矩阵
+$$
+A=\begin{pmatrix}
+1 & 2\\
+2 & 4
+\end{pmatrix}
+$$
+此矩阵应该显然是不可逆的，下面给出直观的解释。根据定义
+$$
+A^{-1}A=I
+$$
+那么能否通过
+$$
+\begin{align}
+\begin{pmatrix}
+Row_{1}  \\
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 \\
+2 & 4
+\end{pmatrix}
+&\to
+\begin{pmatrix}
+1 \\
+0
+\end{pmatrix} \\
+\begin{pmatrix}
+Row_{2}
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 \\
+2 & 4
+\end{pmatrix}
+&\to \begin{pmatrix}
+0 \\
+1
+\end{pmatrix}
+\end{align}
+$$
+仔细向量这个矩阵代表什么意思，代表对右边的矩阵的行向量线性组合。而向量 $(1,0)^T$ 和向量 $(0,1)^T$ 并不在 $(1,2)^T$ 和 $(2,4)^T$ 生成的向量空间中。你可以非常直观的想象到 $(1,2)^T$ 和 $(2,4)^T$ 他们两个的线性组合始终只能在一条直线之上。显然 $(1,0)^T$ 和 $(0,1)^T$ 并不在这一条直线上。
+![[Intuitive-interpretation-of-inverse-matrices.png]]
+因此不可能通过这样的线性组合得到单位矩阵。因此也不可能存在逆矩阵。同时也可以得出结论，线性相关的矩阵是不可逆矩阵。因为始终有单位矩阵中的（列或行）向量在他们的向量空间之外
+
+在直观的理解了矩阵是否可逆之后，
