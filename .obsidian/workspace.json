@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
                 "mode": "source",
                 "source": false
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md"
+                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md"
               }
             }
           },
@@ -243,13 +243,13 @@
   },
   "active": "13ea06f5b319114d",
   "lastOpenFiles": [
+    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+    "数学康复训练/线性代数/chapter-4-A的LU分解.md",
     "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
     "数学康复训练/线性代数/chapter-7-主向量-特解.md",
     "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
     "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
-    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
-    "数学康复训练/线性代数/chapter-4-A的LU分解.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
@@ -270,7 +270,6 @@
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "数学康复训练/线性代数",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
-    "可视化/图形学/GAMES-101/proof-projection.png",
     "数学证明.md",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",

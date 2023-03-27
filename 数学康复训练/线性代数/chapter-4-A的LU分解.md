@@ -20,7 +20,7 @@ A
 0 & 3
 \end{pmatrix}=U
 $$
-用矩阵乘法表示就是
+用消元矩阵来表示这个过程：
 $$
 \begin{pmatrix}
 1 & 0 \\
@@ -36,14 +36,7 @@ $$
 0 & 3
 \end{pmatrix}
 $$
-这里 $$
-\begin{pmatrix}
-1 & 0 \\
--4 & 1
-\end{pmatrix}=E_{21}
-$$
-$E_{21}A=U$，我们想要让 $A$ 单独在一侧。
-$A=LU$ 这里的 $L$ 如何求解？显然 $L$ 和 $E_{21}$ 存在关系
+$E_{21}A=U$，如果写成 $A=LU$ 的形式。 这里的 $L$ 如何求解？显然 $L$ 和 $E_{21}$ 存在关系
 $$
 \begin{cases}
 A=LU \\
@@ -66,8 +59,4 @@ c & d
 0 & 1
 \end{pmatrix}
 $$
-$$
-\begin{pmatrix}
-
-\end{pmatrix}
-$$
+这里再考虑一下矩阵
