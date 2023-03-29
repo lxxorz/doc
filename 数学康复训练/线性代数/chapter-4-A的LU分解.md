@@ -70,70 +70,85 @@ A=\begin{pmatrix}
 $$
 再考虑一个更加复杂一点的三维矩阵, （为了简单消元时这里不考虑交换行）
 $$
-A=\begin{pmatrix}
-1 & 2 & 0 \\
+\begin{align}
+U&=E_{32}E_{21}U \\
+&=\begin{pmatrix}
 2 & 1 & 0 \\
-0 & 2 & 1
-\end{pmatrix}
-=\begin{pmatrix}
+1 & 2 & 1 \\
+0 & 1 & 2
+\end{pmatrix} \\
+&= \begin{pmatrix}
 1 & 0 & 0 \\
-2 & 1 & 0 \\
+0 & 1 & 0 \\
+0 & -\frac{2}{3} & 1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 0 & 0 \\
+-\frac{1}{2} & 1 & 0 \\
 0 & 0 & 1
 \end{pmatrix}
 \begin{pmatrix}
-1 & 2 & 0 \\
-0 & -3 & 0 \\
-0 & 2 & 1
+2 & 1 & 0 \\
+1 & 2 & 1 \\
+0 & 1 & 2
+\end{pmatrix} \\
+&=\begin{pmatrix}
+2 & 1 & 0 \\
+0 & \frac{3}{2} & 1 \\
+0 & 0 & \frac{4}{3}
 \end{pmatrix}
-=E_{21}^{-1}U
+\end{align}
+
 $$
 $$
-A=\begin{pmatrix}
+\begin{align}
+A&=\begin{pmatrix}
 1 & 2 & 0 \\
 2 & 1 & 0 \\
 0 & 2 & 1
+\end{pmatrix} \\
+&= \begin{pmatrix}
+1 & 0 & 0 \\
+\frac{1}{2} & 1 & 0 \\
+0 & 0 & 1
 \end{pmatrix}
-=
 \begin{pmatrix}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & \frac{2}{3} & 1
 \end{pmatrix}
 \begin{pmatrix}
-1 & 0 & 0 \\
 2 & 1 & 0 \\
-0 & 0 & 1
-\end{pmatrix}
-\begin{pmatrix}
-1 & 2 & 0 \\
-0 & -3 & 0 \\
-0 & 0 & 1
-\end{pmatrix}
-=E_{32}^{-1}E_{21}^{-1}U
+0 & \frac{3}{2} & 1 \\
+0 & 0 & \frac{4}{3}
+\end{pmatrix} \\
+&=E_{21}^{-1}E_{32}^{-1}U
+\end{align}
+
 $$
 在形式上，通过观察，这里的 L 矩阵和 U 矩阵分别是下三角矩阵和上三角矩阵。为了保持某种形式上的统一可以再增加一个矩阵让 U 主对角线都是 1.
 $$
 \begin{pmatrix}
 1 & 0 & 0 \\
+\frac{1}{2} & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & \frac{2}{3} & 1
 \end{pmatrix}
 \begin{pmatrix}
-1 & 0 & 0 \\
 2 & 1 & 0 \\
-0 & 0 & 1
-\end{pmatrix}
-\begin{pmatrix}
-1 & -\frac{2}{3} & 0 \\
-0 & 1 & 0 \\
-0 & 0 & 1
-\end{pmatrix}\begin{pmatrix}
-1  & 0 & 0\\
-0  & -3 & 0\\
-0 & 0 & 1
-\end{pmatrix}
+0 & \frac{3}{2} & 1 \\
+0 & 0 & \frac{4}{3}
+\end{pmatrix} 
 $$
 
 > [!attention] 注意
 > 这里都是没有行交换的消元
 
+
+> [!important] important
+> 问问自己关于主元行被下方行减去时，他们是不是 A
+的原始行? 不是！消元的过程可能会改变他们。
