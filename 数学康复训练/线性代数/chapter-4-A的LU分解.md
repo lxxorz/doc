@@ -35,3 +35,73 @@ $$
 \boxed{A=(E_{21})^{-1} (E_{31})^{-1} (E_{32})^{-1}U}
 $$
 
+
+
+考虑下列二维矩阵，然后对它做行变换
+$$
+E_{21}A=
+\begin{pmatrix}
+1 & 0 \\
+-4 & 1
+\end{pmatrix}
+\begin{pmatrix}
+2 & 3  \\
+8 & 7
+\end{pmatrix}=
+\begin{pmatrix}
+2 & 3 \\
+0 & -5
+\end{pmatrix}=U
+$$
+对矩阵 $A$ 做逆乘变换，可以发现确实 $E_{21}$ 的逆矩阵是 $L$，这是为了抵消消元矩阵产生的 「减法效应」
+$$
+A=\begin{pmatrix}
+2 & 3  \\
+8 & 7
+\end{pmatrix}=
+\begin{pmatrix}
+1 & 0 \\
+4 & 1
+\end{pmatrix}
+\begin{pmatrix}
+2 & 3  \\
+0 & -5
+\end{pmatrix}=E_{21}^{-1}U
+$$
+再考虑一个更加复杂一点的三维矩阵, （为了简单消元时这里不考虑交换行）
+$$
+A=\begin{pmatrix}
+1 & 2 & 0 \\
+2 & 1 & 0 \\
+0 & 2 & 1
+\end{pmatrix}
+=\begin{pmatrix}
+1 & 0 & 0 \\
+2 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 & 0 \\
+0 & -3 & 0 \\
+0 & 2 & 1
+\end{pmatrix}
+=E_{21}^{-1}U
+$$
+$$
+A=\begin{pmatrix}
+1 & 2 & 0 \\
+2 & 1 & 0 \\
+0 & 2 & 1
+\end{pmatrix}
+=\begin{pmatrix}
+1 & 0 & 0 \\
+2 & 1 & 0 \\
+0 & 0 & 1
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 & 0 \\
+0 & -3 & 0 \\
+0 & 2 & 1
+\end{pmatrix}
+=E_{21}^{-1}U
+$$
