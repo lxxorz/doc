@@ -236,9 +236,7 @@
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian-stille:Toggle Stille": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "obsidian-stille:Toggle Stille": false
     }
   },
   "active": "13ea06f5b319114d",
