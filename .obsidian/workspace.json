@@ -68,6 +68,38 @@
             }
           },
           {
+            "id": "1f62c8852e6cf8d8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-05-14 16.46.03.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "a35666026a383dd4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-05-14 16.46.04.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "061d35c4de465cff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端基础系列/CSS/现代web布局.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a7515dd7b15c4b9c",
             "type": "leaf",
             "state": {
@@ -92,7 +124,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -142,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -159,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
+                "file": "前端基础系列/CSS/现代web布局.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
+                "file": "前端基础系列/CSS/现代web布局.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md"
+                "file": "前端基础系列/CSS/现代web布局.md"
               }
             }
           },
@@ -241,10 +272,14 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "13ea06f5b319114d",
+  "active": "061d35c4de465cff",
   "lastOpenFiles": [
-    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+    "前端基础系列/CSS/现代web布局.md",
+    "Excalidraw/Drawing 2023-05-14 16.46.04.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-14 16.46.03.excalidraw.md",
     "数学康复训练/线性代数/chapter-4-A的LU分解.md",
+    "Excalidraw",
+    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
     "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
     "数学康复训练/线性代数/chapter-7-主向量-特解.md",
     "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
@@ -280,14 +315,11 @@
     "可视化/图形学/GAMES-101",
     "可视化/图形学",
     "组合式api最佳实践.md",
-    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube_appendix",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
     "前端工程化系列/CI-CD/CICD入门.md",
     "工具/开发利器.md",
     "前端基础系列/CSS/现代网页布局.md",
     "前端工程化系列/包管理工具/pnpm 如何处理依赖.md",
-    "数学康复训练/信息论/资源参考.md",
-    "数学康复训练/信息论/热身.md",
-    "数学康复训练/信息论/定义.md"
+    "数学康复训练/信息论/资源参考.md"
   ]
 }
