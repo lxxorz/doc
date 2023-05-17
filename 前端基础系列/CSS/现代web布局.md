@@ -11,7 +11,7 @@ The flex layout doesn't have justify-self property in the main axis because the 
 
 Therefore, if you want to justify single items along main axis, you should utilize the grid layout.
 
-
+   
 
 ## playground
 

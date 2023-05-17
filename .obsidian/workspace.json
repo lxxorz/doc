@@ -100,6 +100,16 @@
             }
           },
           {
+            "id": "1bf6adac4bcdce89",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
+          },
+          {
             "id": "a7515dd7b15c4b9c",
             "type": "leaf",
             "state": {
@@ -124,7 +134,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -167,6 +177,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "cacff51368f13733",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -272,7 +290,7 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "061d35c4de465cff",
+  "active": "1bf6adac4bcdce89",
   "lastOpenFiles": [
     "前端基础系列/CSS/现代web布局.md",
     "Excalidraw/Drawing 2023-05-14 16.46.04.excalidraw.md",
