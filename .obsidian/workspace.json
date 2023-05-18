@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "deb1288708b061bd",
+        "id": "38305a09a3481d3a",
         "type": "tabs",
         "children": [
           {
-            "id": "13ea06f5b319114d",
+            "id": "119de517606cb0c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "数学康复训练/线性代数/chapter-4-A的LU分解.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -175,7 +171,7 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "2dbc448baee65ca8",
+  "active": "c0af9f18a8dfcf34",
   "lastOpenFiles": [
     "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
     "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
