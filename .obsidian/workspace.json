@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "38305a09a3481d3a",
+        "id": "ac8b53ed50a36911",
         "type": "tabs",
         "children": [
           {
-            "id": "119de517606cb0c2",
+            "id": "e7810a3fbc2a048d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "cacff51368f13733",
+            "id": "254c91ef50a91a7d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -171,7 +171,7 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "c0af9f18a8dfcf34",
+  "active": "e7810a3fbc2a048d",
   "lastOpenFiles": [
     "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
     "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
