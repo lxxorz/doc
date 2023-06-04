@@ -1,10 +1,6 @@
 # Undo Redo 的设计
 撤销和重做是一个编辑器当中的通用功能。
 
-
-
-
-
 ## op-based
 + `add(obj)`
 + `delete(obj)`
@@ -15,6 +11,7 @@ flowchart LR
 add1 --> add2 --> delete2 --> delete1
 ```
 
+if user undo N times , he must be can back to newest state.
 
 | sid     | property     |
 | ------- | ------------ |
@@ -32,14 +29,16 @@ the new and old both are object that contain SID.
 ### Command Stack
 
 ```mermaid
-graph BT
-subgraph Cancel Stack
-  D(add-1) --> E(edit-2) --> F(delete-1)
+graph LR
+subgraph Redo Stack
+  D(add-1) --> E(replace-2) --> F(delete-1)
 end
 
-subgraph Command Stack
-  A(add-1) --> B(edit-2) --> C(delete-1)
+subgraph Undo Stack
+  A(add-1-old) --> B(replace-2-old) --> C(delete-1-new)
 end
+
+C==>D;
 
 ```
 
