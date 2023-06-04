@@ -20,5 +20,6 @@
   "showLineNumber": true,
   "livePreview": true,
   "attachmentFolderPath": "./assets",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "readableLineLength": false
 }
