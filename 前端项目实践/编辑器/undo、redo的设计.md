@@ -1,4 +1,12 @@
 # Undo Redo 的设计
+
+## 文本编辑器的 Undo Redo 实现
+1. Rope data structure
+2. Gap Buffer
+3. Piece Table
+
+
+## 地图编辑器的 Undo Redo 设计
 撤销和重做是一个编辑器当中的通用功能。其核心在于经过 N 次 `undo` 操作可以通过 N 次 `redo` 操作回到保持状态不变
 对于单个用户的系统来说，这实现起来并没有想象中的复杂
 
