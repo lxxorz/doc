@@ -7,7 +7,7 @@
   "translucency": false,
   "nativeMenus": false,
   "showViewHeader": false,
-  "textFontFamily": "霞鹜文楷等宽,霞鹜文楷",
+  "textFontFamily": "霞鹜文楷等宽,霞鹜文楷,FiraCode Nerd Font Mono Retina",
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSizeAction": false
 }
