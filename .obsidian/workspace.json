@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2dbc448baee65ca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端项目实践/编辑器/关于新项目的构思.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端项目实践/编辑器/undo、redo的设计.md",
+                "file": "前端项目实践/编辑器/关于新项目的构思.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端项目实践/编辑器/undo、redo的设计.md",
+                "file": "前端项目实践/编辑器/关于新项目的构思.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端项目实践/编辑器/undo、redo的设计.md"
+                "file": "前端项目实践/编辑器/关于新项目的构思.md"
               }
             }
           },
@@ -175,10 +188,11 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "223069455548f4f7",
+  "active": "2dbc448baee65ca8",
   "lastOpenFiles": [
-    "可视化/图形学/GAMES-101/现代图形学入门.md",
     "前端项目实践/编辑器/undo、redo的设计.md",
+    "前端项目实践/编辑器/关于新项目的构思.md",
+    "可视化/图形学/GAMES-101/现代图形学入门.md",
     "前端项目实践/编辑器",
     "前端项目实践",
     "可视化/图形学/GAMES-101/光栅化.md",
@@ -222,7 +236,6 @@
     "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
     "组合式api最佳实践.md",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/CICD入门.md",
-    "工具/开发利器.md"
+    "前端工程化系列/CI-CD/CICD入门.md"
   ]
 }
