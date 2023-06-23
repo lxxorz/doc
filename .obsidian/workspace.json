@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端项目实践/编辑器/关于新项目的构思.md",
+                "file": "前端基础系列/api[request-animation].md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端项目实践/编辑器/关于新项目的构思.md",
+                "file": "前端基础系列/api[request-animation].md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端项目实践/编辑器/关于新项目的构思.md",
+                "file": "前端基础系列/api[request-animation].md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端项目实践/编辑器/关于新项目的构思.md"
+                "file": "前端基础系列/api[request-animation].md"
               }
             }
           },
@@ -190,8 +190,11 @@
   },
   "active": "2dbc448baee65ca8",
   "lastOpenFiles": [
-    "前端项目实践/编辑器/undo、redo的设计.md",
+    "前端基础系列/assets/chrome-thread.png",
+    "前端基础系列/assets",
     "前端项目实践/编辑器/关于新项目的构思.md",
+    "前端基础系列/api[request-animation].md",
+    "前端项目实践/编辑器/undo、redo的设计.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
     "前端项目实践/编辑器",
     "前端项目实践",
@@ -231,11 +234,8 @@
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "数学证明.md",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
-    "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
     "未命名.canvas",
     "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
-    "组合式api最佳实践.md",
-    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/CICD入门.md"
+    "组合式api最佳实践.md"
   ]
 }
