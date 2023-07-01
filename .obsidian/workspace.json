@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "223069455548f4f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端项目实践/编辑器/undo、redo的设计.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2dbc448baee65ca8",
+            "id": "989821084505d0a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,12 +175,15 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "2dbc448baee65ca8",
+  "active": "989821084505d0a3",
   "lastOpenFiles": [
+    "前端基础系列/组合式api最佳实践.md",
+    "关于接下来的规划.md",
+    "前端基础系列/AR.md",
+    "前端基础系列/api[request-animation].md",
     "前端基础系列/assets/chrome-thread.png",
     "前端基础系列/assets",
     "前端项目实践/编辑器/关于新项目的构思.md",
-    "前端基础系列/api[request-animation].md",
     "前端项目实践/编辑器/undo、redo的设计.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
     "前端项目实践/编辑器",
@@ -225,7 +215,6 @@
     "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
     "数学康复训练/线性代数/chatgpt.png",
     "数学康复训练/线性代数/Pasted image 20230325212607.png.md",
-    "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "幻灯片测试.md",
     "conflict-files-obsidian-git.md",
     "数学康复训练/线性代数.md",
@@ -234,8 +223,6 @@
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "数学证明.md",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
-    "未命名.canvas",
-    "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
-    "组合式api最佳实践.md"
+    "未命名.canvas"
   ]
 }
