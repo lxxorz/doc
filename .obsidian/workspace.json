@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/api[request-animation].md",
+                "file": "健身/减脂/饮食.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/api[request-animation].md",
+                "file": "健身/减脂/饮食.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/api[request-animation].md",
+                "file": "健身/减脂/饮食.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/api[request-animation].md"
+                "file": "健身/减脂/饮食.md"
               }
             }
           },
@@ -177,10 +177,13 @@
   },
   "active": "989821084505d0a3",
   "lastOpenFiles": [
+    "前端基础系列/api[request-animation].md",
+    "健身/减脂/饮食.md",
+    "健身/减脂",
+    "健身",
     "前端基础系列/组合式api最佳实践.md",
     "关于接下来的规划.md",
     "前端基础系列/AR.md",
-    "前端基础系列/api[request-animation].md",
     "前端基础系列/assets/chrome-thread.png",
     "前端基础系列/assets",
     "前端项目实践/编辑器/关于新项目的构思.md",
@@ -220,9 +223,6 @@
     "数学康复训练/线性代数.md",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "数学康复训练/线性代数",
-    "书籍/大型项目如何编写和维护CSS-大漠.pdf",
-    "数学证明.md",
-    "书籍/OpenGL Programming Guide 9th Edition.pdf",
     "未命名.canvas"
   ]
 }
