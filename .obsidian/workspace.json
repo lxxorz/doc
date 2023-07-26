@@ -4,31 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2e94d2492ac63347",
+        "id": "1777078f2c6a3f9c",
         "type": "tabs",
         "children": [
           {
-            "id": "3d795cbce6993ebd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "f962726bc38c393c",
+            "id": "d1af2e1cea114754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组合式api最佳实践.md",
+                "file": "前端基础系列/异步编程/Libuv.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -103,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组合式api最佳实践.md",
+                "file": "前端基础系列/异步编程/Libuv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "组合式api最佳实践.md",
+                "file": "前端基础系列/异步编程/Libuv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组合式api最佳实践.md"
+                "file": "前端基础系列/异步编程/Libuv.md"
               }
             }
           },
@@ -184,12 +174,15 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "f962726bc38c393c",
+  "active": "d1af2e1cea114754",
   "lastOpenFiles": [
+    "前端基础系列/异步编程/Libuv.md",
+    "组合式api最佳实践.md",
+    "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-26 13.32.55.excalidraw.md",
     "专利培训.md",
     "培训",
     "前端项目实践/编辑器/关于新项目的构思.md",
-    "组合式api最佳实践.md",
     "Excalidraw/Drawing 2023-06-19 18.33.23.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "可视化/图形学/GAMES-101/光栅化.md",
@@ -229,9 +222,6 @@
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
     "书籍",
     "新建文件夹",
-    "未命名.canvas",
-    "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
-    "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/CICD入门.md"
+    "未命名.canvas"
   ]
 }
