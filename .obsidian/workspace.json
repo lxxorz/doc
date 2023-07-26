@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ac8b53ed50a36911",
+        "id": "2e94d2492ac63347",
         "type": "tabs",
         "children": [
           {
-            "id": "e7810a3fbc2a048d",
+            "id": "3d795cbce6993ebd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -16,24 +16,12 @@
             }
           },
           {
-            "id": "317fa1f449a201a8",
+            "id": "f962726bc38c393c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "组合式api最佳实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e029d6949ec8611",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端项目实践/编辑器/关于新项目的构思.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,12 +82,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -196,10 +184,13 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "317fa1f449a201a8",
+  "active": "f962726bc38c393c",
   "lastOpenFiles": [
+    "专利培训.md",
+    "培训",
     "前端项目实践/编辑器/关于新项目的构思.md",
     "组合式api最佳实践.md",
+    "Excalidraw/Drawing 2023-06-19 18.33.23.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "可视化/图形学/GAMES-101/光栅化.md",
     "前端项目实践/编辑器/undo、redo的设计.md",
@@ -241,7 +232,6 @@
     "未命名.canvas",
     "Excalidraw/Drawing 2023-02-01 09.46.29.excalidraw.md",
     "前端工程化系列/CI-CD/质量检测/代码质量检测-SonarQube.md",
-    "前端工程化系列/CI-CD/CICD入门.md",
-    "工具/开发利器.md"
+    "前端工程化系列/CI-CD/CICD入门.md"
   ]
 }
