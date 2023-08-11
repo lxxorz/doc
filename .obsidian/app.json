@@ -10,9 +10,7 @@
   "foldHeading": false,
   "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "defaultViewMode": "source",
   "showInlineTitle": false,
   "vimMode": false,

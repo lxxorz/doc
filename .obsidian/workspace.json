@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/异步编程/Libuv.md",
+                "file": "前端基础系列/code-review.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a737bf367024efaa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/异步编程/Libuv.md",
+                "file": "前端基础系列/code-review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/异步编程/Libuv.md",
+                "file": "前端基础系列/code-review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/异步编程/Libuv.md"
+                "file": "前端基础系列/code-review.md"
               }
             }
           },
@@ -174,9 +185,10 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "1aebebcd6cb882d6",
+  "active": "a737bf367024efaa",
   "lastOpenFiles": [
     "前端基础系列/异步编程/Libuv.md",
+    "前端基础系列/code-review.md",
     "前端基础系列/异步编程/RXJS.md",
     "组合式api最佳实践.md",
     "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
@@ -215,7 +227,6 @@
     "幻灯片测试.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
     "数学康复训练/线性代数.md",
-    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "数学康复训练/线性代数",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
