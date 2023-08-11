@@ -30,3 +30,16 @@ useTitle(title);
 ```js
 useTitle(() => isDark.value ? "Good Eveningst🌙" : "Good Morning ☀")
 ```
+
+## 构造一个普适的响应式变量
+根据上文，函数的参数可能是如下几种类型
+1. 响应式变量
+2. 非响应式变量
+3. 计算属性
+4. getter 函数
+vue 提供了开箱即用的 `toRef` 函数，用以将以上几种类型的参数规范化为 refs (3.3+)
+```ts
+function useSomething(arg: MabeRefOrGetter<unknown>) {
+	const arg_ref = toRef(arg);
+}
+```

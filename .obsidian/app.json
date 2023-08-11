@@ -8,11 +8,9 @@
   },
   "promptDelete": true,
   "foldHeading": false,
-  "spellcheck": true,
+  "spellcheck": false,
   "alwaysUpdateLinks": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "defaultViewMode": "source",
   "showInlineTitle": false,
   "vimMode": false,
@@ -21,5 +19,6 @@
   "livePreview": true,
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
+  "tabSize": 2,
   "readableLineLength": false
 }
