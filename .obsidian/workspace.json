@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a737bf367024efaa",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 334.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -169,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 389.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +174,17 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "a737bf367024efaa",
+  "active": "c0af9f18a8dfcf34",
   "lastOpenFiles": [
-    "前端基础系列/异步编程/Libuv.md",
+    "前端基础系列/assets/b472f9e05188e0adb2b24c11e85fce55_MD5.png",
+    "前端基础系列/assets",
+    "前端基础系列/typescript/错题本.md",
     "前端基础系列/code-review.md",
+    "前端基础系列/typescript/typescript 设计缺陷.md",
+    "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
+    "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
+    "前端基础系列/typescript/4.9 新语法之satisfies.md",
+    "前端基础系列/异步编程/Libuv.md",
     "前端基础系列/异步编程/RXJS.md",
     "组合式api最佳实践.md",
     "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
@@ -211,7 +207,6 @@
     "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
     "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
     "数学康复训练/线性代数/chapter-10-四个基本子空间.md",
-    "数学康复训练/线性代数/chapter-9-线性相关性.md",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
@@ -219,20 +214,14 @@
     "数学康复训练/线性代数/assets",
     "数学康复训练/线性代数/Pasted image 20230326104336.png",
     "数学康复训练/线性代数/linearly-dependent.png",
-    "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
     "数学康复训练/线性代数/chatgpt.png",
-    "数学康复训练/线性代数/Pasted image 20230325212607.png.md",
     "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "数学康复训练/线性代数/null-space.png",
-    "幻灯片测试.md",
-    "可视化/图形学/GAMES-101/现代图形学入门.md",
-    "数学康复训练/线性代数.md",
     "数学康复训练/线性代数",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
     "书籍",
-    "新建文件夹",
     "未命名.canvas"
   ]
 }
