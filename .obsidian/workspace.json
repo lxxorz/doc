@@ -13,7 +13,7 @@
             "state": {
               "type": "diff-view",
               "state": {
-                "file": ".obsidian/workspace.json",
+                "file": "前端基础系列/组合式api最佳实践.md",
                 "staged": false
               }
             }
@@ -172,10 +172,11 @@
   "active": "1aebebcd6cb882d6",
   "lastOpenFiles": [
     "前端基础系列/code-review.md",
+    "前端基础系列/typescript/4.9 新语法之satisfies.md",
+    "前端基础系列/组合式api最佳实践.md",
     "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
     "设计模式/软件架构和模式",
     "设计模式",
-    "前端基础系列/组合式api最佳实践.md",
     "前端基础系列/assets/chrome-thread.png",
     "前端基础系列/api[request-animation].md",
     "关于接下来的规划.md",
@@ -190,7 +191,6 @@
     "前端基础系列/typescript/typescript 设计缺陷.md",
     "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
     "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
-    "前端基础系列/typescript/4.9 新语法之satisfies.md",
     "前端基础系列/异步编程/Libuv.md",
     "前端基础系列/异步编程/RXJS.md",
     "组合式api最佳实践.md",
