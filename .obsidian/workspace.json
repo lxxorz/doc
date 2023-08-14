@@ -4,30 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0a1ec9420e53a841",
+        "id": "25cee29c398146db",
         "type": "tabs",
         "children": [
           {
-            "id": "dfa1933da1bb09ba",
+            "id": "1aebebcd6cb882d6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "290e121dee257cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "健身/减脂/慢跑.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -60,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "right-handle-law.png",
+                "query": "最佳",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +65,7 @@
             }
           },
           {
-            "id": "cacff51368f13733",
+            "id": "254c91ef50a91a7d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 334.5
   },
   "right": {
     "id": "8becc1770bbc8ceb",
@@ -105,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,7 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 389.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,54 +169,54 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "dfa1933da1bb09ba",
+  "active": "1aebebcd6cb882d6",
   "lastOpenFiles": [
-    "健身/减脂/慢跑.md",
+    "前端基础系列/code-review.md",
     "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
     "设计模式/软件架构和模式",
-    "前端基础系列/typescript/4.9 新语法之satisfies.md",
     "设计模式",
-    "前端基础系列/CSS/未命名.md",
     "前端基础系列/组合式api最佳实践.md",
-    "前端基础系列/爬虫技术.md",
+    "前端基础系列/assets/chrome-thread.png",
     "前端基础系列/api[request-animation].md",
-    "前端基础系列/AR.md",
-    "前端基础系列/code-review.md",
-    "前端基础系列/LINUX 常用命令 cheet-sheet.md",
-    "前端基础系列/Stream.md",
-    "前端基础系列/vueuse 最佳实践.md",
-    "前端项目实践/编辑器/undo、redo的设计.md",
-    "前端项目实践/编辑器/关于新项目的构思.md",
-    "Excalidraw/Drawing 2023-05-14 16.46.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-14 16.46.03.excalidraw.md",
-    "conflict-files-obsidian-git.md",
-    "前端基础系列/异步编程/Libuv.md",
-    "前端基础系列/assets/b472f9e05188e0adb2b24c11e85fce55_MD5.png",
-    "专利培训.md",
-    "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
-    "Excalidraw/Drawing 2023-07-26 13.32.55.excalidraw.md",
-    "Excalidraw/Drawing 2023-06-19 18.33.23.excalidraw.md",
-    "健身/腰部.md",
+    "关于接下来的规划.md",
     "健身/减脂/饮食.md",
+    "健身/减脂/慢跑.md",
+    "健身/腰部.md",
     "健身/减脂",
     "健身",
-    "关于接下来的规划.md",
-    "前端基础系列/assets/chrome-thread.png",
+    "前端基础系列/assets/b472f9e05188e0adb2b24c11e85fce55_MD5.png",
     "前端基础系列/assets",
-    "可视化/图形学/GAMES-101/现代图形学入门.md",
+    "前端基础系列/typescript/错题本.md",
+    "前端基础系列/typescript/typescript 设计缺陷.md",
+    "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
+    "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
+    "前端基础系列/typescript/4.9 新语法之satisfies.md",
+    "前端基础系列/异步编程/Libuv.md",
+    "前端基础系列/异步编程/RXJS.md",
+    "组合式api最佳实践.md",
+    "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
+    "Excalidraw/Drawing 2023-07-26 13.32.55.excalidraw.md",
+    "专利培训.md",
+    "培训",
+    "前端项目实践/编辑器/关于新项目的构思.md",
+    "Excalidraw/Drawing 2023-06-19 18.33.23.excalidraw.md",
+    "conflict-files-obsidian-git.md",
+    "可视化/图形学/GAMES-101/光栅化.md",
+    "前端项目实践/编辑器/undo、redo的设计.md",
     "前端项目实践/编辑器",
     "前端项目实践",
-    "前端基础系列/异步编程/assets/rxjs-model.png",
-    "前端基础系列/异步编程/assets",
-    "前端基础系列/异步编程",
-    "Excalidraw",
+    "数学康复训练/线性代数/chapter-2-矩阵消元以及逆矩阵.md",
+    "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
     "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
     "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
     "数学康复训练/线性代数/assets/null-vector-linear-dependent.png",
+    "数学康复训练/线性代数/assets",
     "数学康复训练/线性代数/Pasted image 20230326104336.png",
     "数学康复训练/线性代数/linearly-dependent.png",
+    "数学康复训练/线性代数/chatgpt.png",
+    "数学康复训练/线性代数",
     "未命名.canvas"
   ]
 }
