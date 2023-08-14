@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "25cee29c398146db",
+        "id": "72c7f3df807c28f7",
         "type": "tabs",
         "children": [
           {
-            "id": "1aebebcd6cb882d6",
+            "id": "0632a302085ba284",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "前端基础系列/组合式api最佳实践.md",
-                "staged": false
+                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md"
+              }
             }
           },
           {
@@ -153,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 389.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,7 +175,7 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "1aebebcd6cb882d6",
+  "active": "0632a302085ba284",
   "lastOpenFiles": [
     "前端基础系列/code-review.md",
     "前端基础系列/typescript/4.9 新语法之satisfies.md",
