@@ -1,4 +1,5 @@
 ## 契约式设计（design by contract）
+![[desgin-by-contract.png]]
 契约双方是**调用者**和**被调用者**
 
 一个调用必须满足
