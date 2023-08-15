@@ -71,14 +71,16 @@ foo(b) // 正确
 当然一个共有的认知是：没有程序能够 100% 的保证对修改封闭。总会有需求使得必须修改原有的软件模块才能达到目的%%
 
 ### 为什么要遵守开闭原则
-考虑一个经典场景，客户端和服务器。这里客户端和服务器都是两个具体的类。
+考虑一个经典场景，客户端和服务器。这里客户端和服务器都是两个具体的类。如果客户端想要更换一个不同类型的服务器，
 
 [[client-server.png|Open file:]]
 ![[client-server.png]]
 
 ```ts
-function client(server: Server) {
-	server.connect();
+class Client{
+	connect(server:Server) {
+		server.connect();
+	}
 }
 ```
 如果客户端想要更换服务器，
