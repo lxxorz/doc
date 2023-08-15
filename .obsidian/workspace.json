@@ -158,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
-    "collapsed": true
+    "width": 389.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,7 +174,7 @@
       "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "a4a8401d4c2f9608",
+  "active": "c0af9f18a8dfcf34",
   "lastOpenFiles": [
     "设计模式/软件架构和模式/assets/client-server.png",
     "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
