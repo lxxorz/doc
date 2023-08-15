@@ -64,12 +64,19 @@ foo(b) // 正确
 
 想到了一个有趣的比喻，父母就和既有的软件模块一样，在无法改变自己的情况下，只能希冀子女（派生类）来达到自己不曾达到的目标
 
+*Robert Cecil Martin* 在其文章 [*The open and closed Principles*](./OCP-1996.pdf) 中详细阐述了使用开闭原则的益处, 以及开发程序为什么要符合开闭原则。
 
-*Robert Cecil Martin* 在其报告 [*The open and closed Principles*](./OCP-1996.pdf) 中详细阐述了使用开闭原则的益处，与*Bertland Meyer*不同的是，*Robert Cecil Martin*强调了开发一个符合开闭原则的程序，“抽象是关键的地方”。
-
+*Robert Cecil Martin*强调了开发一个符合开闭原则的程序，抽象非常关键
 
 当然一个共有的认知是：没有程序能够 100% 的保证对修改封闭。总会有需求使得必须修改原有的软件模块才能达到目的
 
+### 为什么要遵守开闭原则
 
+```ts
+class 
+function client(server: Server) {
+	server.connect();
+}
+```
 ## 参考文档
 1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
