@@ -62,7 +62,11 @@ foo(b) // 正确
 
 修改是指破坏原有的类，最早提出开闭原则的*Bertland Meyer* 认为只有在一个类错误的情况下才能去修改它，如果要添加新的特性应该通过新增的类来实现。[^1]。*Bertland Meyer* 倡导使用**继承**实现功能的扩展
 
-*Robert Cecil Martin* 在其报告 [*The open and closed Principles*](./OCP-1996.pdf) 中详细阐述了使用开闭原则的益处，与*Bertland Meyer*不同的是，*Robert Cecil Martin*强调了开发一个符合开闭原则的程序，“抽象是关键的地方”
+想到了一个有趣的比喻，父母就和既有的软件模块一样，在无法改变自己的情况下，只能希冀子女（派生类）来达到自己不曾达到的目标
+
+当然没有一个共有的认知是：没有程序能够 100% 的保证对修改封闭，如果有的话，没关系，**产品的需求变更**会出手
+
+*Robert Cecil Martin* 在其报告 [*The open and closed Principles*](./OCP-1996.pdf) 中详细阐述了使用开闭原则的益处，与*Bertland Meyer*不同的是，*Robert Cecil Martin*强调了开发一个符合开闭原则的程序，“抽象是关键的地方”。
 
 
 
