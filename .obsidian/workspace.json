@@ -177,8 +177,10 @@
   },
   "active": "a4a8401d4c2f9608",
   "lastOpenFiles": [
-    "设计模式/软件架构和模式/OCP-1996.pdf",
+    "设计模式/软件架构和模式/assets/client-server.png",
     "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
+    "设计模式/软件架构和模式/assets",
+    "设计模式/软件架构和模式/OCP-1996.pdf",
     "前端基础系列/code-review.md",
     "前端基础系列/typescript/4.9 新语法之satisfies.md",
     "前端基础系列/组合式api最佳实践.md",
@@ -218,10 +220,8 @@
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
     "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
     "数学康复训练/线性代数/assets/null-vector-linear-dependent.png",
-    "数学康复训练/线性代数/assets",
     "数学康复训练/线性代数/Pasted image 20230326104336.png",
     "数学康复训练/线性代数/linearly-dependent.png",
-    "数学康复训练/线性代数/chatgpt.png",
     "未命名.canvas"
   ]
 }
