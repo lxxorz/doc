@@ -73,8 +73,80 @@ foo(b) // 正确
 
 ### 示例
 
-```ts
+version 1 函数 `drawAllShapes` 对修改不关闭，如果新增一个 shape ，每次都必须修改 `drawAllShapes` 。这种修改看起来很简单，但实际上系统中可能很多地方都有类似的条件判断，每次新增一种 shape 都要在系统中全局查找引用到的地方
 
+```ts
+const enum shapeType {
+	circle,
+	triangle,
+	square,
+}
+
+class Shape {
+	abstract type: shapeType
+}
+
+class Circle {
+	readonly type: shapeType.circle = shapeType.circle
+}
+
+class Square {
+	readonly type: shapeType.square = shapeType.square
+}
+
+function drawAllShapes(shapes: Shapes[]) {
+	for(const shape of shapes) {
+		switch(shape.type) {
+			case shape.circle: drawCircle(shape);break;
+			case shape.square: drawSquare(shape);break;
+			...
+		}
+	}
+}
+```
+
+version 2
+```ts
+class Shape {
+	abstract type: shapeType
+	abstract draw: () => void
+}
+
+class Circle extends Shape {
+	readonly type: shapeType.circle = shapeType.circle
+	draw() {/***/}
+}
+
+class Square extends Shape {
+	readonly type: shapeType.square = shapeType.square
+	draw() { /***/}
+}
+
+function drawAllShapes(shapes: Shapes[]) {
+	for(const shape of shapes) {
+		shape.draw()
+	}
+}
+```
+
+
+进一步，如果要考虑以某种特定顺序绘制图形，比如先绘制 circle 然后再绘制 square ，每次
+version 1 
+```ts
+function drawAllShapes(shapes: Shapes[]) {
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		
+		return 1;
+	})
+	
+	for(const shape of shapes) {
+		shape.draw()
+	}
+}
 ```
 
 ## 参考文档
