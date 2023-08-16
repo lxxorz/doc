@@ -210,6 +210,7 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 }
 ```
 
+### 没有能够完全对修改关闭的软件模块
 
 ## 参考文档
 1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
