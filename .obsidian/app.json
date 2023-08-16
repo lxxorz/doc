@@ -20,5 +20,6 @@
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
   "tabSize": 2,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "useMarkdownLinks": true
 }

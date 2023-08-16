@@ -1,5 +1,5 @@
 ## 契约式设计（design by contract）
-![[desgin-by-contract.png]]
+![](desgin-by-contract.png)
 契约双方是**调用者**和**被调用者**
 
 一个调用必须满足
@@ -76,22 +76,22 @@ foo(b) // 正确
 version 1 函数 `drawAllShapes` 对修改不关闭，如果新增一个 shape ，每次都必须修改 `drawAllShapes` 。这种修改看起来很简单，但实际上系统中可能很多地方都有类似的条件判断，每次新增一种 shape 都要在系统中全局查找引用到的地方
 
 ```ts
-const enum shapeType {
+const enum ShapeType {
 	circle,
 	triangle,
 	square,
 }
 
 class Shape {
-	abstract type: shapeType
+	abstract type: ShapeType
 }
 
 class Circle {
-	readonly type: shapeType.circle = shapeType.circle
+	readonly type: ShapeType.circle = ShapeType.circle
 }
 
 class Square {
-	readonly type: shapeType.square = shapeType.square
+	readonly type: ShapeType.square = ShapeType.square
 }
 
 function drawAllShapes(shapes: Shapes[]) {
@@ -108,17 +108,17 @@ function drawAllShapes(shapes: Shapes[]) {
 version 2
 ```ts
 class Shape {
-	abstract type: shapeType
+	abstract type: ShapeType
 	abstract draw: () => void
 }
 
 class Circle extends Shape {
-	readonly type: shapeType.circle = shapeType.circle
+	readonly type: ShapeType.circle = ShapeType.circle
 	draw() {/***/}
 }
 
 class Square extends Shape {
-	readonly type: shapeType.square = shapeType.square
+	readonly type: ShapeType.square = ShapeType.square
 	draw() { /***/}
 }
 
@@ -131,6 +131,7 @@ function drawAllShapes(shapes: Shapes[]) {
 
 
 进一步，如果要考虑以某种特定顺序绘制图形，比如先绘制 circle 然后再绘制 square ，每次
+
 version 1 
 ```ts
 function drawAllShapes(shapes: Shapes[]) {
@@ -139,7 +140,7 @@ function drawAllShapes(shapes: Shapes[]) {
 		if(a.type ===  b.type) 
 			return 0;
 			
-		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
 		
 		return 1;
 	})
@@ -151,13 +152,14 @@ function drawAllShapes(shapes: Shapes[]) {
 ```
 
 因为增加了排序逻辑，`drawAllShapes` 函数在每添加一种 shape 时，仍然需要进行再次修改，为了让 drawAllShapes 符合开闭原则。可以把排序的逻辑抽离出 `drawAllShapes` 函数
+
 version 2
 ```ts
 function sortShape(shapes: Shapes[]) {
 		if(a.type ===  b.type) 
 		return 0;
 		
-		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
 		
 		return 1;
 }
@@ -169,7 +171,7 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 		if(a.type ===  b.type) 
 			return 0;
 			
-		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
 		
 		return 1;
 	})
@@ -178,14 +180,18 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 }
 ```
 
-显然的，新增的排序仍然时不符合开闭原则，最后采用数据驱动的方式，来保证 sortShape 函数符合开闭原则。
+显然的，新增的排序仍然时不符合开闭原则，最后采用数据驱动的方式，来保证 sortShape 函数符合开闭原则
+
 version 3
 ```ts
-const prority
+const priority = [ShapeType.circle, ShapeType.square, ShapeType.triangle]
 
 function sortShape(shapes: Shapes[]) {
-		const priortity_a = proritity 
-		const priority_b = 
+	return shapes.sort((a, b) => {
+		const priority_a = priority.indexOf(shape)
+		const priority_b = priority.indexOf(shape)
+		return priority_a - priority_b;
+	})
 }
 
 function drawAllShapes (shapes: Shapes[], sortShape) {
@@ -195,14 +201,15 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 		if(a.type ===  b.type) 
 			return 0;
 			
-		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
 		
 		return 1;
 	})
 
 	return shapes.forEach(shape => shape.draw())
 }
-
 ```
+
+
 ## 参考文档
 1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
