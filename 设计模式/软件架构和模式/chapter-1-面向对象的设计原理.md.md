@@ -134,6 +134,7 @@ function drawAllShapes(shapes: Shapes[]) {
 version 1 
 ```ts
 function drawAllShapes(shapes: Shapes[]) {
+
 	shape.sort((a,b) => {
 		if(a.type ===  b.type) 
 			return 0;
@@ -149,5 +150,59 @@ function drawAllShapes(shapes: Shapes[]) {
 }
 ```
 
+因为增加了排序逻辑，`drawAllShapes` 函数在每添加一种 shape 时，仍然需要进行再次修改，为了让 drawAllShapes 符合开闭原则。可以把排序的逻辑抽离出 `drawAllShapes` 函数
+version 2
+```ts
+function sortShape(shapes: Shapes[]) {
+		if(a.type ===  b.type) 
+		return 0;
+		
+		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		
+		return 1;
+}
+
+function drawAllShapes (shapes: Shapes[], sortShape) {
+	const shapes = sortShape([...shapes])
+	
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		
+		return 1;
+	})
+
+	return shapes.forEach(shape => shape.draw())
+}
+```
+
+显然的，新增的排序仍然时不符合开闭原则，最后采用数据驱动的方式，来保证 sortShape 函数符合开闭原则。
+version 3
+```ts
+const prority
+
+function sortShape(shapes: Shapes[]) {
+		const priortity_a = proritity 
+		const priority_b = 
+}
+
+function drawAllShapes (shapes: Shapes[], sortShape) {
+	const shapes = sortShape([...shapes])
+	
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === shapeType.circle && b.type === shapeType.square) return -1;
+		
+		return 1;
+	})
+
+	return shapes.forEach(shape => shape.draw())
+}
+
+```
 ## 参考文档
 1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
