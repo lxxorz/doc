@@ -151,35 +151,8 @@ function drawAllShapes(shapes: Shapes[]) {
 }
 ```
 
-因为增加了排序逻辑，`drawAllShapes` 函数在每添加一种 shape 时，仍然需要进行再次修改，为了让 drawAllShapes 符合开闭原则。可以把排序的逻辑抽离出 `drawAllShapes` 函数
+因为增加了排序逻辑，`drawAllShapes` 函数在每添加一种 shape 时，仍然需要进行再次修改，如何使`DrawAllShapes`函数不受绘制顺序变化的影响？封闭性是建立在抽象之上的。因此，为了使`DrawAllShapes`不受顺序影响，我们需要某种形式的“顺序抽象”。
 
-version 2
-```ts
-function sortShape(shapes: Shapes[]) {
-		if(a.type ===  b.type) 
-		return 0;
-		
-		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
-		
-		return 1;
-}
-
-function drawAllShapes (shapes: Shapes[], sortShape) {
-	const shapes = sortShape([...shapes])
-	
-	shape.sort((a,b) => {
-		if(a.type ===  b.type) 
-			return 0;
-		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
-		
-		return 1;
-	})
-
-	return shapes.forEach(shape => shape.draw())
-}
-```
-
-显然的，新增的排序仍然时不符合开闭原则，最后采用数据驱动的方式，来保证 sortShape 函数符合开闭原则
 
 version 3
 ```ts
@@ -209,7 +182,6 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 }
 ```
 
-### 没有能够完全对修改关闭的软件模块
 
 ## 参考文档
 1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
