@@ -156,34 +156,67 @@ function drawAllShapes(shapes: Shapes[]) {
 
 version 3
 ```ts
-class Shape {
-	abstract type: ShapeType
-}
+  const enum ShapeType {
+    circle,
+    square,
+    triangle,
+  }
 
-const priority = [ShapeType.circle, ShapeType.square, ShapeType.triangle]
+  abstract class Shape {
+    abstract type: ShapeType
+    abstract draw(): void
+    static priority = [ShapeType.triangle, ShapeType.square, ShapeType.circle]
+    static less(shape: Shape): boolean {
+      const priority = Shape.priority.indexOf(this.type)
+      const otherPriority = Shape.priority.indexOf(shape.type)
+      return priority < otherPriority
+    }
+  }
 
-function sortShape(shapes: Shapes[]) {
-	return shapes.sort((a, b) => {
-		const priority_a = priority.indexOf(shape)
-		const priority_b = priority.indexOf(shape)
-		return priority_a - priority_b;
-	})
-}
+  class Triangle extends Shape {
+    type = ShapeType.triangle
+    draw(): void {
+      console.log('draw triangle')
+    }
+  }
 
-function drawAllShapes (shapes: Shapes[], sortShape) {
-	const shapes = sortShape([...shapes])
-	
-	shape.sort((a,b) => {
-		if(a.type ===  b.type) 
-			return 0;
-			
-		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
-		
-		return 1;
-	})
+  class Circle extends Shape {
+    readonly type: ShapeType.circle = ShapeType.circle
+    radius: number
+    constructor(radius: number) {
+      super()
+      this.radius = radius
+    }
+    override draw() {
+      console.log('draw circle')
+    }
+  }
 
-	return shapes.forEach(shape => shape.draw())
-}
+  class Square extends Shape {
+    readonly type: ShapeType.square = ShapeType.square
+    override draw() {
+      console.log('draw square')
+    }
+  }
+
+  function sortFn(shapes: Shape[]) {
+    return shapes.sort((a, b) => {
+      if (a.less(b)) return -1
+      if (b.less(a)) return 1
+      return 0
+    })
+  }
+
+  function drawAllShapes(all_shapes: Shape[], sort) {
+    const shapes = sort([...all_shapes])
+    shapes.forEach((shape) => shape.draw())
+  }
+
+  const circle = new Circle(10)
+  const square = new Square()
+  const triangle = new Triangle()
+  drawAllShapes([circle, square, triangle], sortFn)
+
 ```
 
 
