@@ -170,7 +170,6 @@ function drawAllShapes (shapes: Shapes[], sortShape) {
 	shape.sort((a,b) => {
 		if(a.type ===  b.type) 
 			return 0;
-			
 		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
 		
 		return 1;
