@@ -11,11 +11,9 @@
             "id": "a4a8401d4c2f9608",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
-                "mode": "source",
-                "source": false
+                "file": "设计模式/软件架构和模式/OCP-1996.pdf"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
+                "file": "设计模式/软件架构和模式/OCP-1996.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
+                "file": "设计模式/软件架构和模式/OCP-1996.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md"
+                "file": "设计模式/软件架构和模式/OCP-1996.pdf"
               }
             }
           },
@@ -177,10 +175,10 @@
   },
   "active": "a4a8401d4c2f9608",
   "lastOpenFiles": [
+    "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
+    "设计模式/软件架构和模式/OCP-1996.pdf",
     "设计模式/软件架构和模式/DIP.pdf",
     "设计模式/软件架构和模式/DIP.md.md",
-    "设计模式/软件架构和模式/OCP-1996.pdf",
-    "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
     "设计模式/软件架构和模式/assets/desgin-by-contract.png",
     "设计模式/软件架构和模式/assets/client-server.png",
     "设计模式/软件架构和模式/Unconfirmed 497220.crdownload",

@@ -156,6 +156,10 @@ function drawAllShapes(shapes: Shapes[]) {
 
 version 3
 ```ts
+class Shape {
+	abstract type: ShapeType
+}
+
 const priority = [ShapeType.circle, ShapeType.square, ShapeType.triangle]
 
 function sortShape(shapes: Shapes[]) {
