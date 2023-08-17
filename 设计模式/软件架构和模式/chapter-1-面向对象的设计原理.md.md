@@ -1,5 +1,5 @@
 ## 契约式设计（design by contract）
-![[desgin-by-contract.png]]
+![](desgin-by-contract.png)
 契约双方是**调用者**和**被调用者**
 
 一个调用必须满足
@@ -10,7 +10,6 @@
 调用者必须满足前置条件
 被调用者的方法必须满足后置条件
 不变式是被调用者应该一致保持的条件
-
 
 ```ts
 interface Stack {
@@ -39,7 +38,6 @@ classDiagram
 
 ```
 
-
 假设 B 类想要覆写 A 类中的 f 方法，那么必须满足的条件是
 1. f 的前置条件被弱化
 2. f 的后置条件被强化
@@ -60,30 +58,158 @@ foo(a) // 正确
 foo(b) // 正确
 ```
 
+## 开闭原则
+“软件模块应该对修改关闭，对扩展开放”这句大名鼎鼎的话就是对开闭原则的最简单阐释
 
+修改是指破坏原有的类，最早提出开闭原则的*Bertland Meyer* 认为只有在一个类错误的情况下才能去修改它，如果要添加新的特性应该通过新增的类来实现。[^1]。*Bertland Meyer* 倡导使用**继承**实现功能的扩展
 
-### 契约式设计的实践
-在实践当中，除了契约式设计，使用最多的还有大名鼎鼎的“[防御式编程]( https://zh.wikipedia.org/zh-sg/%E9%98%B2%E5%BE%A1%E6%80%A7%E7%BC%96%E7%A8%8B ) ”, 防御式编程的特点就是调用者需要做一冗余的检查。例如一个对正整数开平方根的函数 `square`，该函数（被调用者）会对传入的参数进行大于 0 的检查
+%%想到了一个有趣的比喻，父母就和既有的软件模块一样，在无法改变自己的情况下，只能希冀子女（派生类）来达到自己不曾达到的目标
+
+*Robert Cecil Martin* 在其文章 [*The open and closed Principles*](./OCP-1996.pdf) 中详细阐述了使用开闭原则的益处, 以及开发程序为什么要符合开闭原则。
+
+*Robert Cecil Martin*强调了开发一个符合开闭原则的程序，抽象非常关键
+
+当然一个共有的认知是：没有程序能够 100% 的保证对修改封闭。总会有需求使得必须修改原有的软件模块才能达到目的%%
+
+### 示例
+
+version 1 函数 `drawAllShapes` 对修改不关闭，如果新增一个 shape ，每次都必须修改 `drawAllShapes` 。这种修改看起来很简单，但实际上系统中可能很多地方都有类似的条件判断，每次新增一种 shape 都要在系统中全局查找引用到的地方
+
 ```ts
-function square(n: number) {
-	assert(n > 0);
-	// do something ...
+const enum ShapeType {
+	circle,
+	triangle,
+	square,
 }
-```
 
-但是在契约式设计中，这个检查应该由调用者满足。因此契约式设计要求提供良好的文档，而且要对团队成员有充分的了解和信任
+class Shape {
+	abstract type: ShapeType
+}
 
-```ts
-function caller(n: number) {
-	if(n <= 0) {
-		throw new Error("parameter must be no-negative")
+class Circle {
+	readonly type: ShapeType.circle = ShapeType.circle
+}
+
+class Square {
+	readonly type: ShapeType.square = ShapeType.square
+}
+
+function drawAllShapes(shapes: Shapes[]) {
+	for(const shape of shapes) {
+		switch(shape.type) {
+			case shape.circle: drawCircle(shape);break;
+			case shape.square: drawSquare(shape);break;
+			...
+		}
 	}
-	// do something ...
+}
+```
+
+version 2
+```ts
+class Shape {
+	abstract type: ShapeType
+	abstract draw: () => void
 }
 
+class Circle extends Shape {
+	readonly type: ShapeType.circle = ShapeType.circle
+	draw() {/***/}
+}
+
+class Square extends Shape {
+	readonly type: ShapeType.square = ShapeType.square
+	draw() { /***/}
+}
+
+function drawAllShapes(shapes: Shapes[]) {
+	for(const shape of shapes) {
+		shape.draw()
+	}
+}
 ```
-否则的话，还是使用防御式编程更好，不过契约式设计中覆写父类方法的原则，仍然是需要遵守的
 
-### 开闭原则
 
-可扩展性和闭合性针对的维度不同，可扩展性，
+进一步，如果要考虑以某种特定顺序绘制图形，比如先绘制 circle 然后再绘制 square ，每次
+
+version 1 
+```ts
+function drawAllShapes(shapes: Shapes[]) {
+
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
+		
+		return 1;
+	})
+	
+	for(const shape of shapes) {
+		shape.draw()
+	}
+}
+```
+
+因为增加了排序逻辑，`drawAllShapes` 函数在每添加一种 shape 时，仍然需要进行再次修改，为了让 drawAllShapes 符合开闭原则。可以把排序的逻辑抽离出 `drawAllShapes` 函数
+
+version 2
+```ts
+function sortShape(shapes: Shapes[]) {
+		if(a.type ===  b.type) 
+		return 0;
+		
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
+		
+		return 1;
+}
+
+function drawAllShapes (shapes: Shapes[], sortShape) {
+	const shapes = sortShape([...shapes])
+	
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
+		
+		return 1;
+	})
+
+	return shapes.forEach(shape => shape.draw())
+}
+```
+
+显然的，新增的排序仍然时不符合开闭原则，最后采用数据驱动的方式，来保证 sortShape 函数符合开闭原则
+
+version 3
+```ts
+const priority = [ShapeType.circle, ShapeType.square, ShapeType.triangle]
+
+function sortShape(shapes: Shapes[]) {
+	return shapes.sort((a, b) => {
+		const priority_a = priority.indexOf(shape)
+		const priority_b = priority.indexOf(shape)
+		return priority_a - priority_b;
+	})
+}
+
+function drawAllShapes (shapes: Shapes[], sortShape) {
+	const shapes = sortShape([...shapes])
+	
+	shape.sort((a,b) => {
+		if(a.type ===  b.type) 
+			return 0;
+			
+		if(a.type === ShapeType.circle && b.type === ShapeType.square) return -1;
+		
+		return 1;
+	})
+
+	return shapes.forEach(shape => shape.draw())
+}
+```
+
+
+## 参考文档
+1.  [开闭原则-wiki](https://zh.wikipedia.org/zh-cn/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99#cite_note-3)
