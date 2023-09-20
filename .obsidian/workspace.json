@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "file": "前端基础系列/CSS/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "file": "前端基础系列/CSS/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "file": "前端基础系列/CSS/未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "版本控制工具/git/如何新建一个远程仓库.md"
+                "file": "前端基础系列/CSS/未命名.md"
               }
             }
           }
@@ -150,9 +150,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "0b84b5aee6106f13",
+  "active": "80300e11975e6ada",
   "lastOpenFiles": [
-    "前端工程化系列/git/git flow.md",
-    "版本控制工具/git/如何新建一个远程仓库.md"
+    "版本控制工具/git/如何新建一个远程仓库.md",
+    "前端基础系列/CSS/未命名.md",
+    "前端工程化系列/git/git flow.md"
   ]
 }
