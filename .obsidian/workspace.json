@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "0e177643a0c21523",
+    "type": "split",
+    "children": [
+      {
+        "id": "08323b8c9651d337",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80300e11975e6ada",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bcbd9e8b6a3adaec",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed25471b79a8a3bb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "381b3fab52d20071",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "53806de2da05bbe2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dd2d561da257ad8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6e5df4abd751e195",
+    "type": "split",
+    "children": [
+      {
+        "id": "095747e6fd0faa1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "879dbeb0fb7bb6b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0b84b5aee6106f13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "版本控制工具/git/如何新建一个远程仓库.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e34d18c56f69bf2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "37e807eabc8ffed9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "版本控制工具/git/如何新建一个远程仓库.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-stille:Toggle Stille": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false
+    }
+  },
+  "active": "0b84b5aee6106f13",
+  "lastOpenFiles": [
+    "前端工程化系列/git/git flow.md",
+    "版本控制工具/git/如何新建一个远程仓库.md"
+  ]
+}
