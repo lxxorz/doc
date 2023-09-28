@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "220b642345b2ff1a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +161,7 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "80300e11975e6ada",
+  "active": "220b642345b2ff1a",
   "lastOpenFiles": [
     "版本控制工具/git/如何新建一个远程仓库.md",
     "前端基础系列/CSS/未命名.md",
