@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9dc1c30e1ae4bdc5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +170,7 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "72108655a02d015c",
+  "active": "9dc1c30e1ae4bdc5",
   "lastOpenFiles": [
     "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
