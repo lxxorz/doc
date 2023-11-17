@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md"
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md"
               }
             }
           },
@@ -162,9 +162,11 @@
   },
   "active": "72108655a02d015c",
   "lastOpenFiles": [
-    "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
-    "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
+    "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+    "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/assets/perspective-2D.jpeg",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231114220853.png",
     "可视化/图形学/GAMES-101/assets/a16f48401c375f01048931fddd6cf88a_MD5.jpeg",
@@ -173,8 +175,6 @@
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "前端工程化系列/git/规范tag发布过程.md",
     "前端工程化系列/Pasted image 20230201142355.png",
-    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
-    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
     "可视化/图形学/GAMES-101/proof-projection.png",
     "可视化/图形学/GAMES-101/rotation-axis.png",
