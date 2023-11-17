@@ -4,7 +4,7 @@
   "baseFontSize": 16,
   "interfaceFontFamily": "Monaspace Krypton,Monaspace Radon,JetBrains Mono NL,Iosevka",
   "theme": "obsidian",
-  "translucency": false,
+  "translucency": true,
   "nativeMenus": false,
   "showViewHeader": false,
   "textFontFamily": "Monaspace Krypton,Segoe UI,霞鹜文楷等宽,霞鹜文楷",
