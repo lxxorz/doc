@@ -1,13 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Big Sur Aesthetic",
   "baseFontSize": 16,
-  "interfaceFontFamily": "JetBrains Mono NL,Iosevka",
+  "interfaceFontFamily": "Monaspace Krypton,Monaspace Radon,JetBrains Mono NL,Iosevka",
   "theme": "obsidian",
-  "translucency": false,
+  "translucency": true,
   "nativeMenus": false,
   "showViewHeader": false,
-  "textFontFamily": "霞鹜文楷 屏幕阅读版,Segoe UI,霞鹜文楷等宽,霞鹜文楷",
+  "textFontFamily": "Monaspace Krypton,Segoe UI,霞鹜文楷等宽,霞鹜文楷",
   "monospaceFontFamily": "JetBrains Mono",
   "baseFontSizeAction": false
 }

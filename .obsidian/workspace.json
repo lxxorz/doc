@@ -1,19 +1,21 @@
 {
   "main": {
-    "id": "cc9c936c42ff23eb",
+    "id": "0e177643a0c21523",
     "type": "split",
     "children": [
       {
-        "id": "4c8dfe359f28fa49",
+        "id": "b0f6dc3befde8fbd",
         "type": "tabs",
         "children": [
           {
-            "id": "a4a8401d4c2f9608",
+            "id": "72108655a02d015c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "设计模式/软件架构和模式/DIP.pdf"
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -23,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6f7cc3d846813d25",
+    "id": "bcbd9e8b6a3adaec",
     "type": "split",
     "children": [
       {
-        "id": "e8f54b2305fb52be",
+        "id": "ed25471b79a8a3bb",
         "type": "tabs",
         "children": [
           {
-            "id": "d8fff2abaeaec633",
+            "id": "381b3fab52d20071",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,12 +43,12 @@
             }
           },
           {
-            "id": "c04a101e27f1a0b9",
+            "id": "53806de2da05bbe2",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "最佳",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,15 +58,7 @@
             }
           },
           {
-            "id": "655db1c227089562",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "254c91ef50a91a7d",
+            "id": "dd2d561da257ad8a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,151 +69,122 @@
       }
     ],
     "direction": "horizontal",
-    "width": 334.5
+    "width": 300
   },
   "right": {
-    "id": "8becc1770bbc8ceb",
+    "id": "6e5df4abd751e195",
     "type": "split",
     "children": [
       {
-        "id": "c7a4e1483f206fc9",
+        "id": "095747e6fd0faa1b",
         "type": "tabs",
         "children": [
           {
-            "id": "72c4724d69cbb564",
+            "id": "879dbeb0fb7bb6b0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "设计模式/软件架构和模式/DIP.pdf",
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "025d9f67a4dca1ba",
+            "id": "0b84b5aee6106f13",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "设计模式/软件架构和模式/DIP.pdf",
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "80da1b39e6f5b2f0",
+            "id": "1e34d18c56f69bf2",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "2999209e12328de2",
+            "id": "37e807eabc8ffed9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计模式/软件架构和模式/DIP.pdf"
+                "file": "可视化/图形学/GAMES-101/正交投影矩阵的推导.md"
               }
             }
           },
           {
-            "id": "27d8d37d315d8948",
+            "id": "4ffc9ac565de4bf2",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "c0af9f18a8dfcf34",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 1028.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "canvas:新建白板": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "zk-prefixer:创建时间戳笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-stille:Toggle Stille": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-stille:Toggle Stille": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "a4a8401d4c2f9608",
+  "active": "72108655a02d015c",
   "lastOpenFiles": [
-    "设计模式/软件架构和模式/OCP-1996.pdf",
-    "设计模式/软件架构和模式/DIP.md.md",
-    "设计模式/软件架构和模式/DIP.pdf",
-    "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
-    "设计模式/软件架构和模式/assets/desgin-by-contract.png",
-    "设计模式/软件架构和模式/assets/client-server.png",
-    "设计模式/软件架构和模式/Unconfirmed 497220.crdownload",
-    "conflict-files-obsidian-git.md",
-    "设计模式/软件架构和模式/assets",
-    "前端基础系列/code-review.md",
-    "前端基础系列/typescript/4.9 新语法之satisfies.md",
-    "前端基础系列/组合式api最佳实践.md",
-    "设计模式/软件架构和模式",
-    "设计模式",
-    "前端基础系列/assets/chrome-thread.png",
-    "前端基础系列/api[request-animation].md",
-    "关于接下来的规划.md",
-    "健身/减脂/饮食.md",
-    "健身/减脂/慢跑.md",
-    "健身/腰部.md",
-    "健身/减脂",
-    "健身",
-    "前端基础系列/assets/b472f9e05188e0adb2b24c11e85fce55_MD5.png",
-    "前端基础系列/assets",
-    "前端基础系列/typescript/错题本.md",
-    "前端基础系列/typescript/typescript 设计缺陷.md",
-    "前端基础系列/typescript/Typescript 控制流分析和权衡.md",
-    "前端基础系列/typescript/关于显式类型声明和隐式类型推断的对比.md",
-    "前端基础系列/异步编程/Libuv.md",
-    "前端基础系列/异步编程/RXJS.md",
-    "组合式api最佳实践.md",
-    "Excalidraw/Drawing 2023-07-26 13.35.44.excalidraw.md",
-    "Excalidraw/Drawing 2023-07-26 13.32.55.excalidraw.md",
-    "专利培训.md",
-    "培训",
-    "前端项目实践/编辑器/关于新项目的构思.md",
-    "Excalidraw/Drawing 2023-06-19 18.33.23.excalidraw.md",
-    "可视化/图形学/GAMES-101/光栅化.md",
-    "前端项目实践/编辑器/undo、redo的设计.md",
-    "数学康复训练/线性代数/assets/Intuitive-interpretation-of-inverse-matrices.png",
-    "数学康复训练/线性代数/assets/linearly-dependent-addition.png",
-    "数学康复训练/线性代数/assets/linearly-dependent-in-subspace-2.png",
-    "数学康复训练/线性代数/assets/linearly-dependent-in-subspace.png",
-    "数学康复训练/线性代数/assets/null-vector-linear-dependent.png",
-    "数学康复训练/线性代数/Pasted image 20230326104336.png",
-    "未命名.canvas"
+    "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
+    "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
+    "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+    "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/assets/perspective-2D.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231114220853.png",
+    "可视化/图形学/GAMES-101/assets/a16f48401c375f01048931fddd6cf88a_MD5.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231114220816.png",
+    "可视化/图形学/GAMES-101/assets",
+    "书籍/大型项目如何编写和维护CSS-大漠.pdf",
+    "前端工程化系列/git/规范tag发布过程.md",
+    "前端工程化系列/Pasted image 20230201142355.png",
+    "可视化/图形学/GAMES-101/现代图形学入门.md",
+    "可视化/图形学/GAMES-101/proof-projection.png",
+    "可视化/图形学/GAMES-101/rotation-axis.png",
+    "可视化/图形学/GAMES-101/right-handle-law.png",
+    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
+    "前端基础系列/CSS/Reflow and Repaint.md",
+    "前端基础系列/CSS/未命名.md",
+    "前端基础系列/CSS/现代网页布局.md",
+    "前端基础系列/CSS/现代web布局.md",
+    "版本控制工具/git/如何新建一个远程仓库.md",
+    "前端工程化系列/git/git flow.md"
   ]
 }
