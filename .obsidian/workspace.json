@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "13e9c8b7bb790e07",
+        "id": "bd03e758183769ae",
         "type": "tabs",
         "children": [
           {
-            "id": "316dfd03defd170a",
+            "id": "6e53da70bd523d60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "美食/煎牛排的步骤.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "美食/煎牛排的步骤.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "美食/煎牛排的步骤.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "美食/煎牛排的步骤.md"
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md"
               }
             }
           },
@@ -156,30 +156,30 @@
       "zk-prefixer:创建时间戳笔记": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-stille:Toggle Stille": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
+      "obsidian-stille:Toggle Stille": false
     }
   },
-  "active": "316dfd03defd170a",
+  "active": "6e53da70bd523d60",
   "lastOpenFiles": [
-    "美食/未命名.md",
-    "美食/煎牛排的步骤.md",
+    "可视化/图形学/GAMES-101/assets/507fdbf3b1724866203d5a33e2ee50fb_MD5.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119235541.png",
+    "可视化/图形学/GAMES-101/assets/a3caac6fd59ee3042d7d39393b408dfe_MD5.jpeg",
     "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119232140.png",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119231851.png",
+    "可视化/图形学/GAMES-101/assets/eb07123bc44a113fda8452d8ffca45c6_MD5.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119231838.png",
+    "可视化/图形学/GAMES-101/assets/perspective-frstum.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119231717.png",
+    "美食/煎牛排的步骤.md",
+    "美食/未命名.md",
     "美食",
     "可视化/图形学/GAMES-101/assets/perspective_example.jpeg",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231119192118.png",
     "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/Pasted image 20231119185950.png.md",
-    "可视化/图形学/GAMES-101/assets/Pasted image 20231119190005.png",
-    "可视化/图形学/GAMES-101/assets/d956987455495a51ff249a0e4ea956d1_MD5.jpeg",
-    "可视化/图形学/GAMES-101/assets/Pasted image 20231119185950.png",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "可视化/图形学/GAMES-101/什么是齐次坐标.md",
-    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
-    "可视化/图形学/GAMES-101/assets/perspective-2D.jpeg",
-    "可视化/图形学/GAMES-101/assets/Pasted image 20231114220853.png",
-    "可视化/图形学/GAMES-101/assets/a16f48401c375f01048931fddd6cf88a_MD5.jpeg",
-    "可视化/图形学/GAMES-101/assets/Pasted image 20231114220816.png",
     "可视化/图形学/GAMES-101/assets",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "前端工程化系列/git/规范tag发布过程.md",
