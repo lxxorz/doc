@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b0f6dc3befde8fbd",
+        "id": "13e9c8b7bb790e07",
         "type": "tabs",
         "children": [
           {
-            "id": "72108655a02d015c",
+            "id": "316dfd03defd170a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "可视化/图形学/GAMES-101/什么是齐次坐标.md"
+                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md"
               }
             }
           },
@@ -161,13 +161,19 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false
     }
   },
-  "active": "72108655a02d015c",
+  "active": "316dfd03defd170a",
   "lastOpenFiles": [
+    "可视化/图形学/GAMES-101/assets/perspective_example.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119192118.png",
     "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/Pasted image 20231119185950.png.md",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119190005.png",
+    "可视化/图形学/GAMES-101/assets/d956987455495a51ff249a0e4ea956d1_MD5.jpeg",
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231119185950.png",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
     "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
-    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
     "可视化/图形学/GAMES-101/什么是齐次坐标.md",
+    "可视化/图形学/GAMES-101/罗德里克斯公式.png",
     "可视化/图形学/GAMES-101/assets/perspective-2D.jpeg",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231114220853.png",
     "可视化/图形学/GAMES-101/assets/a16f48401c375f01048931fddd6cf88a_MD5.jpeg",
@@ -177,9 +183,6 @@
     "前端工程化系列/git/规范tag发布过程.md",
     "前端工程化系列/Pasted image 20230201142355.png",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
-    "可视化/图形学/GAMES-101/proof-projection.png",
-    "可视化/图形学/GAMES-101/rotation-axis.png",
-    "可视化/图形学/GAMES-101/right-handle-law.png",
     "前端基础系列/CSS/新提案-CSS Nesting Module.md",
     "前端基础系列/CSS/Reflow and Repaint.md",
     "前端基础系列/CSS/未命名.md",
