@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+                "file": "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6e5df4abd751e195",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+                "file": "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+                "file": "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "可视化/图形学/GAMES-101/透视投影矩阵的推导.md"
+                "file": "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md"
               }
             }
           },
@@ -162,6 +161,9 @@
   },
   "active": "6e53da70bd523d60",
   "lastOpenFiles": [
+    "可视化/图形学/GAMES-101/assets/Pasted image 20231120222331.png",
+    "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+    "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md",
     "设计模式/软件架构和模式/DIP.md.md",
     "可视化/图形学/GAMES-101/assets/ca85d1d1c9445570eb3df5ddb3a9f6f2_MD5.jpeg",
     "可视化/图形学/GAMES-101/assets/ba1a9bda4a228896034a2eddeb76fcda_MD5.jpeg",
@@ -171,7 +173,6 @@
     "可视化/图形学/GAMES-101/assets/507fdbf3b1724866203d5a33e2ee50fb_MD5.jpeg",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231119235541.png",
     "可视化/图形学/GAMES-101/assets/perspective-frstum.jpeg",
-    "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231119232140.png",
     "可视化/图形学/GAMES-101/assets/Pasted image 20231119231851.png",
     "美食/煎牛排的步骤.md",
