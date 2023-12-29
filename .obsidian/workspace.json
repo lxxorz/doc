@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端基础系列/组合式api最佳实践.md",
+                "file": "前端基础系列/CSS/Reflow and Repaint.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组合式",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端基础系列/组合式api最佳实践.md",
+                "file": "前端基础系列/CSS/Reflow and Repaint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "前端基础系列/组合式api最佳实践.md",
+                "file": "前端基础系列/CSS/Reflow and Repaint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "前端基础系列/组合式api最佳实践.md"
+                "file": "前端基础系列/CSS/Reflow and Repaint.md"
               }
             }
           },
@@ -162,6 +161,13 @@
   },
   "active": "95f1f8d2deed6ed8",
   "lastOpenFiles": [
+    "前端基础系列/CSS/新提案-CSS Nesting Module.md",
+    "前端基础系列/CSS/实现卡片堆叠效果.md",
+    "前端基础系列/CSS/Reflow and Repaint.md",
+    "前端基础系列/CSS/demo.awebp",
+    "前端基础系列/CSS/demo (1).awebp",
+    "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
+    "前端基础系列/组合式api最佳实践.md",
     "前端基础系列/网络/TCP基础知识.md",
     "前端工程化系列/包管理工具/pnpm 如何处理依赖.md",
     "美食/未命名.md",
@@ -172,7 +178,6 @@
     "可视化/图形学/GAMES-101/正交投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/现代图形学入门.md",
     "可视化/图形学/GAMES-101/图形学入门相关数学证明.md",
-    "可视化/图形学/GAMES-101/透视投影矩阵的推导.md",
     "可视化/图形学/GAMES-101/绕z轴旋转矩阵的推导.md",
     "可视化/图形学/GAMES-101/罗德里克斯公式.png",
     "前端工程化系列/git/规范tag发布过程.md",
@@ -186,15 +191,11 @@
     "前端基础系列/网络/基于HTTP的身份识别.md",
     "前端基础系列/网络/华为obs调研.md",
     "前端基础系列/网络/从浏览器发起的http请求说起.md",
-    "前端基础系列/网络/【翻译】万维网简史.md",
-    "设计模式/软件架构和模式/chapter-1-面向对象的设计原理.md.md",
     "设计模式/软件架构和模式/DIP.pdf",
-    "设计模式/软件架构和模式/DIP.md.md",
     "设计模式/软件架构和模式/OCP-1996.pdf",
     "书籍/OpenGL Programming Guide 9th Edition.pdf",
     "书籍/Fundamentals-of-Computer-Graphics-Fourth-Edition.pdf",
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
-    "前端基础系列/puppeteer介绍和爬虫实现.md",
     "可视化/图形学/GAMES-101/assets/d956987455495a51ff249a0e4ea956d1_MD5.jpeg",
     "Excalidraw",
     "可视化/图形学/GAMES-101/assets/perspective-frstum.jpeg",
