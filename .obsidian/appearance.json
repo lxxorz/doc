@@ -3,7 +3,7 @@
   "cssTheme": "Blue Topaz",
   "baseFontSize": 16,
   "interfaceFontFamily": "Monaspace Krypton,Monaspace Radon,JetBrains Mono NL,Iosevka",
-  "theme": "system",
+  "theme": "moonstone",
   "translucency": true,
   "nativeMenus": false,
   "showViewHeader": false,
