@@ -137,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -157,22 +158,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "381b3fab52d20071",
+  "active": "ad424d927de6fda9",
   "lastOpenFiles": [
+    "数学康复训练/概率论/资源参考.md",
     "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
     "数学康复训练/概率论/chapter-1-样本空间.md",
-    "数学康复训练/概率论/资源参考.md",
+    "202401231911.md",
+    "Excalidraw/Drawing 2024-01-23 19.11.29.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-23 19.11.25.excalidraw.md",
     "关于接下来的规划.md",
-    "数学规划.md",
+    "关于RFC的注意事项.md",
+    "幻灯片测试.md",
+    "技术关注.md",
+    "人工智能学习计划表.md",
+    "数学康复训练/线性代数/关于ChatGPT带来的革命性变换.md",
+    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
+    "数学康复训练/线性代数/chapter-7-主向量-特解.md",
     "assets/Pasted image 20240123094629.png",
     "assets/Pasted image 20240123094329.png",
     "assets",
-    "幻灯片测试.md",
-    "技术关注.md",
     "前端工程化系列/CI-CD/CICD入门.md",
     "前端基础系列/数学/熵.md",
     "数学康复训练/线性代数/chapter-6-列空间和零空间.md",
-    "数学康复训练/线性代数/chapter-3-乘法和逆矩阵.md",
     "数学康复训练/线性代数/deab34003aeebb6d7f99261a041b8a5f_MD5.png",
     "数学康复训练/信息论/定义.md",
     "数学康复训练/信息论/热身.md",
@@ -186,12 +193,6 @@
     "前端项目实践/编辑器/关于新项目的构思.md",
     "前端基础系列/vueuse 最佳实践.md",
     "前端基础系列/网络/跨域.md",
-    "前端基础系列/网络/连接.md",
-    "前端基础系列/puppeteer介绍和爬虫实现.md",
-    "前端基础系列/Stream.md",
-    "前端基础系列/网络/HTTP-Cache.md",
-    "前端基础系列/网络/http-status-code.md",
-    "前端基础系列/网络/http-compression.md",
     "前端工程化系列/CI-CD/GitLab-CI-CD_res/持续交付典型过程.png",
     "前端基础系列/CSS/demo.awebp",
     "前端基础系列/CSS/demo (1).awebp",
