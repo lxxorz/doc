@@ -18,6 +18,18 @@
             }
           },
           {
+            "id": "c8cdd91c30d0e05f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
             "id": "a967aafec3ddb690",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
+                "file": "数学康复训练/概率论/chapter-1-样本空间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
+                "file": "数学康复训练/概率论/chapter-1-样本空间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf"
+                "file": "数学康复训练/概率论/chapter-1-样本空间.md"
               }
             }
           },
@@ -168,10 +181,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad424d927de6fda9",
+  "active": "a967aafec3ddb690",
   "lastOpenFiles": [
-    "数学康复训练/概率论/chapter-1-样本空间.md",
+    "conflict-files-obsidian-git.md",
     "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
+    "数学康复训练/概率论/集合.md",
+    "数学康复训练/概率论/chapter-1-样本空间.md",
     "数学康复训练/概率论/资源参考.md",
     "202401231911.md",
     "Excalidraw/Drawing 2024-01-23 19.11.29.excalidraw.md",
@@ -201,8 +216,6 @@
     "书籍/大型项目如何编写和维护CSS-大漠.pdf",
     "前端项目实践/编辑器/undo、redo的设计.md",
     "前端项目实践/编辑器/关于新项目的构思.md",
-    "前端基础系列/vueuse 最佳实践.md",
-    "前端基础系列/网络/跨域.md",
     "前端工程化系列/CI-CD/GitLab-CI-CD_res/持续交付典型过程.png",
     "前端基础系列/CSS/demo.awebp",
     "前端基础系列/CSS/demo (1).awebp",
