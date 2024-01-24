@@ -11,6 +11,16 @@
             "id": "ad424d927de6fda9",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf"
+              }
+            }
+          },
+          {
+            "id": "a967aafec3ddb690",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "数学康复训练/概率论/chapter-1-样本空间.md",
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学康复训练/概率论/chapter-1-样本空间.md",
+                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学康复训练/概率论/chapter-1-样本空间.md",
+                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学康复训练/概率论/chapter-1-样本空间.md"
+                "file": "数学康复训练/概率论/概率导论.第2版.修订版.pdf"
               }
             }
           },
@@ -160,9 +170,9 @@
   },
   "active": "ad424d927de6fda9",
   "lastOpenFiles": [
-    "数学康复训练/概率论/资源参考.md",
-    "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
     "数学康复训练/概率论/chapter-1-样本空间.md",
+    "数学康复训练/概率论/概率导论.第2版.修订版.pdf",
+    "数学康复训练/概率论/资源参考.md",
     "202401231911.md",
     "Excalidraw/Drawing 2024-01-23 19.11.29.excalidraw.md",
     "Excalidraw/Drawing 2024-01-23 19.11.25.excalidraw.md",
